@@ -25,7 +25,7 @@ def test_hermes_prompt_find_generates_single_copy_paste_prompt(tmp_path: Path):
             "--country",
             "SE",
             "--vendors",
-            "blocket,tradera",
+            "amazon,ebay",
         ],
     )
 
@@ -37,8 +37,8 @@ def test_hermes_prompt_find_generates_single_copy_paste_prompt(tmp_path: Path):
     assert "hermes/skills/marketplace-agent-workspace.md" in result.output
     assert "hermes/skills/marketplace-agent-vendor-builder.md" in result.output
     assert "hermes/skills/marketplace-agent-sell-draft.md" in result.output
-    assert "blocket" in result.output
-    assert "tradera" in result.output
+    assert "amazon" in result.output
+    assert "ebay" in result.output
     assert "Do not auto-post" in result.output
     assert "marketplace-agent find" in result.output
 

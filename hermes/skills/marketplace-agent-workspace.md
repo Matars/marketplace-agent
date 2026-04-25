@@ -66,25 +66,21 @@ Prefer concrete model names over vague terms. Add comments or notes when a recom
 
 ## Vendors
 
-Until real plugins are installed, keep demo enabled so the pipeline can be tested:
+Default real vendors are Amazon and eBay:
 
 ```toml
 [[vendors]]
-name = "demo"
-type = "demo"
+name = "amazon"
+type = "amazon"
 enabled = true
-```
 
-When a real vendor plugin exists:
-
-```toml
 [[vendors]]
-name = "blocket"
-type = "blocket"
+name = "ebay"
+type = "ebay"
 enabled = true
 ```
 
-If a requested vendor plugin does not exist, use marketplace-agent-vendor-builder to create it.
+Do not configure demo vendors unless the user explicitly asks for a dry-run placeholder. If a requested vendor plugin does not exist, use marketplace-agent-vendor-builder to create it.
 
 ## Run and verify
 

@@ -143,7 +143,7 @@ Default workflow:
 2. Create or update the workspace above. Keep it separate from the engine repo.
 3. Convert my goal into concrete marketplace categories and product queries.
 4. Configure the workspace marketplace.toml.
-5. Keep the demo vendor enabled until at least one real vendor works, so the pipeline remains testable.
+5. Use real requested vendors only. Do not configure demo vendors unless I explicitly ask for a dry-run placeholder.
 6. For each requested real vendor that is missing, use browser/browser-harness analysis to build or repair a vendor plugin.
 7. Run: marketplace-agent doctor {workspace.resolve()}
 8. Run: marketplace-agent find {workspace.resolve()}
@@ -238,7 +238,7 @@ def hermes_prompt_find(
     workspace: Path = typer.Option(Path("~/my-marketplace"), "--workspace", help="User workspace path."),
     goal: str = typer.Option(..., "--goal", help="Natural-language find goal."),
     country: str = typer.Option("SE", "--country", help="Country/market to configure for."),
-    vendors: str = typer.Option("demo", "--vendors", help="Comma-separated requested vendors."),
+    vendors: str = typer.Option("amazon,ebay", "--vendors", help="Comma-separated requested vendors."),
     repo: Path = typer.Option(Path.cwd(), "--repo", help="Local marketplace-agent repo path containing hermes/skills."),
     output: Path | None = typer.Option(None, "--output", help="Optional file to write the prompt to."),
 ) -> None:
