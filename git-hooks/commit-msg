@@ -1,0 +1,14 @@
+#!/bin/bash
+MSG_FILE="$1"
+MSG=$(head -n1 "$MSG_FILE")
+BANNED="^(update|fix|wip|test|ok|done|changes?|bots?|tweak|adjust|tmp|temp|asdf|lol|\.+)\s*$"
+if echo "$MSG" | grep -qiE "$BANNED"; then
+    echo "[REJECTED] Commit message too vague."
+    echo "Good: 'scaffold marketplace agent core'"
+    exit 1
+fi
+if [ "${#MSG}" -lt 10 ]; then
+    echo "[REJECTED] Message too short (min 10 chars)."
+    exit 1
+fi
+exit 0

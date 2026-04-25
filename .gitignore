@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets / local env
+.env
+.env.local
+
+# Runtime project data
+output/
+.marketplace-agent/diagnostics/
+*.db
+*.sqlite
+*.sqlite3
+logs/
+*.log
+tmp/
+temp/
+
+# Node / frontend overrides
+node_modules/
+.cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

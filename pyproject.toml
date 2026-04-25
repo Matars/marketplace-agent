@@ -1,0 +1,24 @@
+[project]
+name = "marketplace-agent"
+version = "0.1.0"
+description = "Marketplace automation toolkit for finding deals and drafting second-hand listings."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.13.3",
+    "pyyaml>=6.0.3",
+    "rich>=15.0.0",
+    "typer>=0.24.2",
+]
+
+[project.scripts]
+marketplace-agent = "marketplace_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.10.10,<0.11.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
