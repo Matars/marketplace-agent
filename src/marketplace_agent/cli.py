@@ -1,14 +1,26 @@
 from __future__ import annotations
 
+import json
+import tomllib
+from datetime import datetime, timezone
 from pathlib import Path
 
 import typer
 from rich.console import Console
 
+from marketplace_agent.config import MarketplaceConfig
+from marketplace_agent.models import Item
+from marketplace_agent.vendors.base import Vendor
+from marketplace_agent.vendors.builtins.demo import DemoVendor
+
 app = typer.Typer(help="Marketplace automation: find deals now, draft listings later.")
 hermes_app = typer.Typer(help="Generate Hermes-friendly context and task prompts.")
 app.add_typer(hermes_app, name="hermes")
 console = Console()
+
+BUILTIN_VENDORS: dict[str, type[Vendor]] = {
+    "demo": DemoVendor,
+}
 
 
 def _config_text(name: str, country: str, currency: str) -> str:
@@ -28,6 +40,18 @@ timezone = "Europe/Stockholm"
 
 [find]
 enabled = true
+
+# Start with the offline demo vendor so `marketplace-agent find .` works immediately.
+# Replace/add real vendors as they become available.
+[[vendors]]
+name = "demo"
+type = "demo"
+enabled = true
+
+# Products/categories to search for. Add your own queries here.
+[[categories]]
+name = "tech"
+queries = ["rtx 3060", "steam deck", "sony wh-1000xm4"]
 
 [sell]
 enabled = true
@@ -49,9 +73,39 @@ Useful commands:
 
 ```bash
 marketplace-agent doctor .
+marketplace-agent find .
 marketplace-agent hermes context .
 ```
+
+Edit `marketplace.toml` to change vendors and product queries.
 """
+
+
+def _load_config(project: Path) -> MarketplaceConfig:
+    config_path = project / "marketplace.toml"
+    if not config_path.exists():
+        raise typer.BadParameter(f"missing marketplace.toml in {project}")
+    raw = tomllib.loads(config_path.read_text(encoding="utf-8"))
+    return MarketplaceConfig.model_validate(raw)
+
+
+def _enabled_vendors(config: MarketplaceConfig) -> list[Vendor]:
+    vendors: list[Vendor] = []
+    for vendor_config in config.vendors:
+        if not vendor_config.enabled:
+            continue
+        vendor_cls = BUILTIN_VENDORS.get(vendor_config.type)
+        if vendor_cls is None:
+            raise typer.BadParameter(
+                f"unknown vendor type '{vendor_config.type}' for vendor '{vendor_config.name}'. "
+                f"Available built-ins: {', '.join(sorted(BUILTIN_VENDORS))}"
+            )
+        vendors.append(vendor_cls())
+    return vendors
+
+
+def _item_to_json(item: Item) -> dict:
+    return item.model_dump(mode="json")
 
 
 @app.command()
@@ -78,15 +132,14 @@ def init(
 
     typer.echo(f"initialized marketplace project at {path}")
     typer.echo("Keep this workspace outside the engine repo to avoid pull/update conflicts.")
+    typer.echo("Try: marketplace-agent find <that-folder>")
 
 
 @app.command()
 def doctor(path: Path = typer.Argument(Path("."), help="User workspace path.")) -> None:
     """Validate that a user workspace has the expected shape."""
     project = path.resolve()
-    config_path = project / "marketplace.toml"
-    if not config_path.exists():
-        raise typer.BadParameter(f"missing marketplace.toml in {project}")
+    _load_config(project)
 
     missing_dirs = [
         dirname
@@ -97,6 +150,37 @@ def doctor(path: Path = typer.Argument(Path("."), help="User workspace path.")) 
         raise typer.BadParameter(f"missing workspace directories: {', '.join(missing_dirs)}")
 
     typer.echo(f"workspace looks valid: {project}")
+
+
+@app.command("find")
+def find_command(path: Path = typer.Argument(Path("."), help="User workspace path.")) -> None:
+    """Run the find workflow for configured categories and vendors."""
+    project = path.resolve()
+    config = _load_config(project)
+    vendors = _enabled_vendors(config)
+    if not vendors:
+        raise typer.BadParameter("no enabled vendors configured in marketplace.toml")
+    if not config.categories:
+        raise typer.BadParameter("no categories configured in marketplace.toml")
+
+    items: list[Item] = []
+    for category in config.categories:
+        if not category.queries:
+            continue
+        for query in category.queries:
+            for vendor in vendors:
+                items.extend(vendor.search(query, category=category.name))
+
+    output_dir = project / "output"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "workspace": config.name,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "items": [_item_to_json(item) for item in items],
+    }
+    (output_dir / "latest.json").write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    typer.echo(f"found {len(items)} items")
+    typer.echo(f"wrote {output_dir / 'latest.json'}")
 
 
 @hermes_app.command("context")
