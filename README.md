@@ -7,32 +7,68 @@ This is the v2 direction for the old deals-finder idea:
 - `find` workflow: search vendors, normalize listings, score deals, publish dashboards/alerts.
 - `sell` workflow: turn product photos/details into pricing research and listing drafts.
 - vendor plugins declare capabilities instead of pretending every marketplace supports everything.
-- Hermes is optional: the CLI should work standalone, while Hermes can generate/fix vendor plugins and interpret diagnostics.
+- Hermes is the preferred setup/orchestration layer; the CLI owns deterministic execution.
 
 ## Current honest status
 
-Early prototype. The find workflow now runs end-to-end with an offline `demo` vendor.
+Early prototype. The find workflow runs end-to-end with an offline `demo` vendor.
 
-Real marketplace vendors like Blocket/Tradera are not implemented yet. The point of the current flow is to validate workspace setup, product/category config, output JSON, and the CLI shape before adding real scrapers.
+Real marketplace vendors like Blocket/Tradera are not implemented yet. The intended workflow is that Hermes uses the included skills/prompts to configure workspaces and help build missing vendor plugins.
 
-## Important: engine repo vs user workspace
+## Default workflow: ask Hermes
 
-Do not clone this repo and edit it as your personal marketplace config.
+The preferred user experience is: generate one prompt, paste it into Hermes, and let Hermes configure the workspace.
 
-Use this repo as the installable engine. Create your personal marketplace in a separate folder.
-That keeps updates clean:
-
-- engine updates happen in this repo/package
-- your vendors, templates, config, output, and diagnostics live in your workspace
-- pulling/upgrading the engine does not create conflicts with your personal config
-
-## Normal user workflow
-
-Install from GitHub with uv:
+Install/update the CLI:
 
 ```bash
-uv tool install git+https://github.com/Matars/marketplace-agent.git
+uv tool install --force git+https://github.com/Matars/marketplace-agent.git
 ```
+
+Generate a Hermes prompt from your goal:
+
+```bash
+marketplace-agent hermes prompt find \
+  --workspace ~/my-marketplace \
+  --goal "GPUs that can run Qwen locally" \
+  --country SE \
+  --vendors blocket,tradera
+```
+
+Paste the generated prompt into Hermes. Hermes should:
+
+1. create/update `~/my-marketplace`
+2. translate your goal into concrete categories and queries
+3. configure `marketplace.toml`
+4. keep the demo vendor enabled until a real vendor works
+5. use browser/browser-harness analysis to build missing real vendor plugins
+6. run `marketplace-agent doctor ~/my-marketplace`
+7. run `marketplace-agent find ~/my-marketplace`
+8. inspect `~/my-marketplace/output/latest.json`
+9. summarize what worked and what still needs a vendor implementation
+
+You can also write the prompt to a file:
+
+```bash
+marketplace-agent hermes prompt find \
+  --workspace ~/my-marketplace \
+  --goal "GPUs that can run Qwen locally" \
+  --vendors blocket,tradera \
+  --output ~/my-marketplace/hermes-find-prompt.md
+```
+
+Repo-level Hermes assets live in:
+
+```text
+hermes/skills/
+  marketplace-agent-workspace.md
+  marketplace-agent-vendor-builder.md
+  marketplace-agent-sell-draft.md
+prompts/
+  hermes-bootstrap.md
+```
+
+## Manual workflow: test the CLI yourself
 
 Create a separate user workspace:
 
@@ -52,10 +88,10 @@ The first `find` run uses the built-in offline demo vendor and writes:
 Check the output:
 
 ```bash
-python -m json.tool ~/my-marketplace/output/latest.json
+python3 -m json.tool ~/my-marketplace/output/latest.json
 ```
 
-## Configure your products/categories
+## Configure your products/categories manually
 
 Edit your workspace config:
 
@@ -110,19 +146,20 @@ type = "blocket"
 enabled = true
 ```
 
-That config will not work until the `blocket` vendor plugin exists.
+That config will not work until the `blocket` vendor plugin exists. Use the Hermes prompt flow above to have Hermes inspect the site and implement the missing plugin.
 
-## Hermes context
+## Important: engine repo vs user workspace
 
-After configuring your workspace, generate context for Hermes:
+Do not clone this repo and edit it as your personal marketplace config.
 
-```bash
-marketplace-agent hermes context ~/my-marketplace
-```
+Use this repo as the installable engine. Create your personal marketplace in a separate folder.
+That keeps updates clean:
 
-This prints the paths and safety rules Hermes needs without re-asking basic setup questions.
+- engine updates happen in this repo/package
+- your vendors, templates, config, output, and diagnostics live in your workspace
+- pulling/upgrading the engine does not create conflicts with your personal config
 
-## Upgrade later without touching your workspace
+Upgrade later without touching your workspace:
 
 ```bash
 uv tool install --force git+https://github.com/Matars/marketplace-agent.git
@@ -157,6 +194,7 @@ For local testing from the repo, create a throwaway workspace outside the source
 uv run marketplace-agent init ~/tmp-marketplace --name "Test Market" --country SE --currency SEK
 uv run marketplace-agent doctor ~/tmp-marketplace
 uv run marketplace-agent find ~/tmp-marketplace
+uv run marketplace-agent hermes prompt find --workspace ~/tmp-marketplace --goal "GPUs that can run Qwen locally"
 uv run marketplace-agent hermes context ~/tmp-marketplace
 ```
 
@@ -173,6 +211,8 @@ Still prefer external folders.
 - `doctor` command to validate a workspace
 - `find` command with offline demo vendor
 - `hermes context` command
+- `hermes prompt find` command
+- repo-local Hermes skills and bootstrap prompt
 - sell draft service stub
 - diagnostics bundle stub
 - tests
@@ -180,7 +220,8 @@ Still prefer external folders.
 ## Design principles
 
 1. Config over forks: users create small local workspaces, not modified copies of the engine.
-2. Built-ins first: common vendors should ship as tested plugins.
-3. Escape hatches: simple declarative vendors for easy sites, Python plugins for hard sites.
-4. Safety by default: sell mode drafts listings; it does not auto-post without explicit approval.
-5. Diagnostics over vibes: failed vendors should produce bundles Hermes or a human can inspect.
+2. Hermes by default: natural-language goals become concrete config and vendor-building tasks.
+3. Built-ins first: common vendors should ship as tested plugins.
+4. Escape hatches: simple declarative vendors for easy sites, Python plugins for hard sites.
+5. Safety by default: sell mode drafts listings; it does not auto-post without explicit approval.
+6. Diagnostics over vibes: failed vendors should produce bundles Hermes or a human can inspect.
