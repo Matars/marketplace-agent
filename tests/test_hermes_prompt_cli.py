@@ -33,9 +33,10 @@ def test_hermes_prompt_find_generates_single_copy_paste_prompt(tmp_path: Path):
     assert "You are configuring marketplace-agent" in result.output
     assert "GPUs that can run Qwen locally" in result.output
     assert str(workspace) in result.output
-    assert "marketplace-agent-workspace" in result.output
-    assert "marketplace-agent-vendor-builder" in result.output
-    assert "marketplace-agent-sell-draft" in result.output
+    assert "Read these local repo skill files first" in result.output
+    assert "hermes/skills/marketplace-agent-workspace.md" in result.output
+    assert "hermes/skills/marketplace-agent-vendor-builder.md" in result.output
+    assert "hermes/skills/marketplace-agent-sell-draft.md" in result.output
     assert "blocket" in result.output
     assert "tradera" in result.output
     assert "Do not auto-post" in result.output

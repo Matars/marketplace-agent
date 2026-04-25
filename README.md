@@ -25,14 +25,23 @@ Install/update the CLI:
 uv tool install --force git+https://github.com/Matars/marketplace-agent.git
 ```
 
-Generate a Hermes prompt from your goal:
+Generate a Hermes prompt from your goal. If you have a local clone, pass it as `--repo` so the generated prompt points Hermes at the repo skill files instead of bloating the prompt inline:
 
 ```bash
 marketplace-agent hermes prompt find \
+  --repo ~/fafo/marketplace-agent \
   --workspace ~/my-marketplace \
   --goal "GPUs that can run Qwen locally" \
   --country SE \
   --vendors blocket,tradera
+```
+
+If you do not pass `--repo`, it defaults to your current directory. The generated prompt includes exact paths like:
+
+```text
+~/fafo/marketplace-agent/hermes/skills/marketplace-agent-workspace.md
+~/fafo/marketplace-agent/hermes/skills/marketplace-agent-vendor-builder.md
+~/fafo/marketplace-agent/hermes/skills/marketplace-agent-sell-draft.md
 ```
 
 Paste the generated prompt into Hermes. Hermes should:
@@ -51,6 +60,7 @@ You can also write the prompt to a file:
 
 ```bash
 marketplace-agent hermes prompt find \
+  --repo ~/fafo/marketplace-agent \
   --workspace ~/my-marketplace \
   --goal "GPUs that can run Qwen locally" \
   --vendors blocket,tradera \

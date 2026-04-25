@@ -110,9 +110,10 @@ def _item_to_json(item: Item) -> dict:
     return item.model_dump(mode="json")
 
 
-def _find_prompt(workspace: Path, goal: str, country: str, vendors: str) -> str:
+def _find_prompt(workspace: Path, goal: str, country: str, vendors: str, repo: Path) -> str:
     vendor_list = [v.strip() for v in vendors.split(",") if v.strip()]
     vendor_text = ", ".join(vendor_list) if vendor_list else "choose suitable vendors"
+    repo = repo.resolve()
     return f"""You are configuring marketplace-agent for me.
 
 Goal:
@@ -127,10 +128,15 @@ Country/market:
 Requested vendors:
 {vendor_text}
 
-Use these marketplace-agent repo skills if available:
-- marketplace-agent-workspace
-- marketplace-agent-vendor-builder
-- marketplace-agent-sell-draft
+Marketplace-agent repo:
+{repo}
+
+Read these local repo skill files first, then follow them:
+- {repo / 'hermes' / 'skills' / 'marketplace-agent-workspace.md'}
+- {repo / 'hermes' / 'skills' / 'marketplace-agent-vendor-builder.md'}
+- {repo / 'hermes' / 'skills' / 'marketplace-agent-sell-draft.md'}
+
+If those files are missing, install/update the repo from https://github.com/Matars/marketplace-agent and continue with the closest available workflow.
 
 Default workflow:
 1. Install or update marketplace-agent from https://github.com/Matars/marketplace-agent using uv.
@@ -233,10 +239,11 @@ def hermes_prompt_find(
     goal: str = typer.Option(..., "--goal", help="Natural-language find goal."),
     country: str = typer.Option("SE", "--country", help="Country/market to configure for."),
     vendors: str = typer.Option("demo", "--vendors", help="Comma-separated requested vendors."),
+    repo: Path = typer.Option(Path.cwd(), "--repo", help="Local marketplace-agent repo path containing hermes/skills."),
     output: Path | None = typer.Option(None, "--output", help="Optional file to write the prompt to."),
 ) -> None:
     """Generate a single copy-paste prompt for Hermes to configure a find workflow."""
-    prompt = _find_prompt(workspace.expanduser(), goal=goal, country=country, vendors=vendors)
+    prompt = _find_prompt(workspace.expanduser(), goal=goal, country=country, vendors=vendors, repo=repo.expanduser())
     if output:
         output.parent.mkdir(parents=True, exist_ok=True)
         output.write_text(prompt, encoding="utf-8")
