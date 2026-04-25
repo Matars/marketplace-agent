@@ -13,6 +13,7 @@ from marketplace_agent.models import Item
 from marketplace_agent.vendors.base import Vendor
 from marketplace_agent.vendors.builtins.amazon import AmazonVendor
 from marketplace_agent.vendors.builtins.ebay import EBayVendor
+from marketplace_agent.vendors.builtins.blocket import BlocketVendor
 
 app = typer.Typer(help="Marketplace automation: find deals now, draft listings later.")
 hermes_app = typer.Typer(help="Generate Hermes-friendly context and task prompts.")
@@ -24,6 +25,7 @@ console = Console()
 BUILTIN_VENDORS: dict[str, type[Vendor]] = {
     "amazon": AmazonVendor,
     "ebay": EBayVendor,
+    "blocket": BlocketVendor,
 }
 
 

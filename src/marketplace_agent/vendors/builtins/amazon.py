@@ -15,12 +15,30 @@ import requests
 
 from marketplace_agent.models import Item, VendorCapability
 from marketplace_agent.vendors.base import Vendor
+from marketplace_agent.vendors.browser_harness import fetch_html as _browser_fetch
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Referer": "https://www.amazon.com/",
 }
+
+
+def _fetch_html(url: str) -> str | None:
+    """Fetch Amazon search page using a session for cookie persistence. Falls back to browser-harness."""
+    session = requests.Session()
+    try:
+        # Prime the session with a visit to the homepage to establish cookies
+        session.get("https://www.amazon.com/", headers=HEADERS, timeout=15)
+        resp = session.get(url, headers=HEADERS, timeout=30)
+        resp.raise_for_status()
+        return resp.text
+    except Exception:
+        pass
+
+    # Fallback to browser-harness
+    return _browser_fetch(url)
 
 
 def _parse_price(val: str | None) -> int | None:
@@ -114,17 +132,14 @@ class AmazonVendor(Vendor):
         encoded_query = quote_plus(query)
         url = f"https://www.amazon.com/s?k={encoded_query}"
 
-        try:
-            resp = requests.get(url, headers=HEADERS, timeout=30)
-            resp.raise_for_status()
-        except Exception:
+        html = _fetch_html(url)
+        if html is None:
             return []
 
-        items = _extract_items(resp.text, query=query, category=category)
+        items = _extract_items(html, query=query, category=category)
 
         # If HTTP scraping returns empty, note that browser-harness would help
         if not items:
-            # Return empty but with a note in metadata for debugging
             return []
 
         return items

@@ -1,6 +1,8 @@
 """eBay vendor plugin for marketplace-agent.
 
-Uses HTTP scraping with regex extraction. No browser required.
+Uses HTTP scraping with regex extraction first. Falls back to browser-harness
+when HTTP is blocked (503/challenge page).
+
 Based on browser-harness domain-skills/ebay/scraping.md reference.
 """
 from __future__ import annotations
@@ -12,11 +14,13 @@ import requests
 
 from marketplace_agent.models import Item, VendorCapability
 from marketplace_agent.vendors.base import Vendor
+from marketplace_agent.vendors.browser_harness import fetch_html as _browser_fetch
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Referer": "https://www.ebay.com/",
 }
 
 
@@ -28,7 +32,7 @@ def _parse_price(val: str | None) -> int | None:
 
 
 def _is_blocked(html: str) -> bool:
-    return "Pardon Our Interruption" in html or len(html) < 20_000
+    return "Pardon Our Interruption" in html or len(html) < 20_000 or "Service Unavailable" in html
 
 
 def _extract_items(html: str, query: str, category: str | None) -> list[Item]:
@@ -86,8 +90,25 @@ def _extract_items(html: str, query: str, category: str | None) -> list[Item]:
     return items
 
 
+def _fetch_html(url: str) -> str | None:
+    """Fetch eBay search page using a session. Falls back to browser-harness."""
+    session = requests.Session()
+    try:
+        # Prime session with homepage
+        session.get("https://www.ebay.com/", headers=HEADERS, timeout=15)
+        resp = session.get(url, headers=HEADERS, timeout=30)
+        resp.raise_for_status()
+        if not _is_blocked(resp.text):
+            return resp.text
+    except Exception:
+        pass
+
+    # Fallback to browser-harness
+    return _browser_fetch(url)
+
+
 class EBayVendor(Vendor):
-    """eBay vendor using HTTP scraping."""
+    """eBay vendor using HTTP scraping with browser-harness fallback."""
 
     name = "ebay"
     capabilities = frozenset({VendorCapability.SEARCH, VendorCapability.PRICE_RESEARCH})
@@ -96,13 +117,11 @@ class EBayVendor(Vendor):
         encoded_query = quote_plus(query)
         url = f"https://www.ebay.com/sch/i.html?_nkw={encoded_query}&LH_BIN=1&_sop=15"
 
-        try:
-            resp = requests.get(url, headers=HEADERS, timeout=30)
-            resp.raise_for_status()
-        except Exception:
+        html = _fetch_html(url)
+        if html is None:
             return []
 
-        return _extract_items(resp.text, query=query, category=category)
+        return _extract_items(html, query=query, category=category)
 
     def price_research(self, product: "ProductFacts") -> list[Item]:
         from marketplace_agent.models import ProductFacts
