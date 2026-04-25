@@ -1,8 +1,8 @@
 # marketplace-agent
 
-Marketplace automation toolkit for finding second-hand deals and drafting sell listings.
+Marketplace automation toolkit for finding marketplace deals and drafting sell listings.
 
-The intended UX is simple: copy the prompt below into Hermes. Hermes handles cloning the repo, reading the repo guide/skills, installing the tool with `uv`, creating your workspace, configuring vendors/products, and running the first find workflow.
+The intended UX is simple: copy the prompt below into Hermes, fill in your own goal, and let Hermes handle setup. Hermes clones the repo, reads the repo guide/skills, installs/runs the tool with `uv`, creates your workspace, configures vendors/products, and runs the first workflow.
 
 ## Copy this into Hermes
 
@@ -10,22 +10,22 @@ The intended UX is simple: copy the prompt below into Hermes. Hermes handles clo
 Set up marketplace-agent for me.
 
 My goal:
-I want to find GPUs that can run Qwen locally.
+<describe what you want to find or sell, in your own words>
 
-Default vendors:
-Amazon and eBay.
+Preferred vendors:
+<list marketplaces you want to use, or write "choose sensible defaults for my country">
 
 Do this:
 1. Clone or update https://github.com/Matars/marketplace-agent with submodules enabled.
 2. Read the repo file prompts/hermes-installation-guide.md first.
 3. Follow that guide exactly.
 4. Create or update a separate user workspace outside the engine repo.
-5. Do not configure demo vendors. Use real providers only: amazon and ebay by default.
+5. Do not configure demo vendors. Use real providers only unless I explicitly ask for a dry-run placeholder.
 6. Use the bundled browser-harness submodule at third_party/browser-harness for vendor discovery/scraper repair.
 7. If a provider plugin is missing or broken, use the repo vendor-builder and browser-harness skills to implement or repair it.
-8. Configure products/categories from my goal. For Qwen GPUs, prefer concrete GPU queries with enough VRAM.
-9. Run the validation and find workflow from the guide.
-10. Show me where the output JSON is and summarize what worked.
+8. Configure products/categories from my goal.
+9. Run the validation and requested workflow from the guide.
+10. Show me where the output JSON or draft JSON is and summarize what worked.
 
 Safety:
 - Do not auto-post sell listings.
@@ -63,4 +63,4 @@ third_party/browser-harness/
 
 Early prototype.
 
-The project has the CLI/workspace foundation and Hermes prompt/skill workflow. Amazon and eBay are the desired default real providers, but their production provider plugins still need to be implemented and verified. Demo providers should not be part of the normal user workflow.
+The project has the CLI/workspace foundation and Hermes prompt/skill workflow. Real provider plugins such as Amazon/eBay still need to be implemented and verified. Demo providers should not be part of the normal user workflow.

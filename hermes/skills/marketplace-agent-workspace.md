@@ -12,95 +12,71 @@ Use this skill when a user wants Hermes to set up or configure marketplace-agent
 
 Keep the engine package and the user workspace separate.
 
-- Engine: installed from `git+https://github.com/Matars/marketplace-agent.git`
-- Workspace: user config/data folder such as `~/my-marketplace`
+- Engine: local clone of `https://github.com/Matars/marketplace-agent`
+- Workspace: user config/data folder outside the engine repo
 
 Do not ask the user to edit the engine repo for personal vendors/products.
 
 ## Install/update
 
-```bash
-uv tool install --force git+https://github.com/Matars/marketplace-agent.git
-```
+Use `uv` for Python/project commands. Do not use pip directly.
 
 If working from a local clone during development:
 
 ```bash
-cd ~/fafo/marketplace-agent
 uv sync
 uv run pytest -q
 ```
 
 ## Create workspace
 
-```bash
-marketplace-agent init ~/my-marketplace --name "Home Deals" --country SE --currency SEK
-marketplace-agent doctor ~/my-marketplace
-```
-
-If the workspace exists, edit `marketplace.toml` instead of overwriting unless the user explicitly asks.
+Create a user workspace outside the engine repo. If the workspace exists, edit `marketplace.toml` instead of overwriting unless the user explicitly asks.
 
 ## Convert user intent to categories
 
-Take goals like "GPUs that can run Qwen locally" and turn them into concrete product queries.
+Turn the user's own goal into concrete product/category queries.
 
-Example for local LLM GPUs:
+Guidelines:
+
+- Prefer concrete product names/models over vague terms.
+- Include important constraints from the user: size, location, compatibility, budget, condition, brand, platform, etc.
+- If the user's request is broad, create multiple focused categories.
+- Do not copy examples into the config unless they match the user's actual goal.
+
+Example only:
 
 ```toml
 [[categories]]
-name = "local_ai_gpu"
-queries = [
-  "rtx 3090",
-  "rtx 4090",
-  "rtx 4080 super",
-  "rtx 4070 ti super",
-  "rtx a4000",
-  "rtx a5000",
-  "rtx a6000",
-  "tesla p40",
-  "nvidia 24gb"
-]
+name = "example_category"
+queries = ["specific product 1", "specific product 2"]
 ```
-
-Prefer concrete model names over vague terms. Add comments or notes when a recommendation is capability-based, e.g. 24GB VRAM preferred for larger local models.
 
 ## Vendors
 
-Default real vendors are Amazon and eBay:
-
-```toml
-[[vendors]]
-name = "amazon"
-type = "amazon"
-enabled = true
-
-[[vendors]]
-name = "ebay"
-type = "ebay"
-enabled = true
-```
+Use the vendors requested by the user. If the user asks Hermes to choose, pick sensible real providers for the user's country and goal.
 
 Do not configure demo vendors unless the user explicitly asks for a dry-run placeholder. If a requested vendor plugin does not exist, use marketplace-agent-vendor-builder to create it.
 
 ## Run and verify
 
+After configuration:
+
 ```bash
-marketplace-agent doctor ~/my-marketplace
-marketplace-agent find ~/my-marketplace
-python3 -m json.tool ~/my-marketplace/output/latest.json
+marketplace-agent doctor <workspace>
+marketplace-agent find <workspace>
+python3 -m json.tool <workspace>/output/latest.json
 ```
 
 Success means:
 
 - command exits 0
 - `output/latest.json` exists
-- item count matches configured vendor/query behavior
 - JSON includes title, url, source, category, price/currency when available
 
 ## Hermes context
 
 ```bash
-marketplace-agent hermes context ~/my-marketplace
+marketplace-agent hermes context <workspace>
 ```
 
 Use that output in summaries and future tasks so Hermes does not re-ask basic setup questions.

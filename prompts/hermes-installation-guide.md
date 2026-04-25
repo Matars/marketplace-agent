@@ -4,13 +4,11 @@ You are setting up marketplace-agent for the user. Follow this guide before impr
 
 ## Goal
 
-Turn a natural-language marketplace goal into a working marketplace-agent workspace.
+Turn the user's natural-language marketplace goal into a working marketplace-agent workspace.
 
-Example goal:
+The user's goal and preferred vendors must come from the user's prompt. Do not hardcode the example from this guide into their config.
 
-> I want to find GPUs that can run Qwen locally.
-
-The default real providers should be Amazon and eBay. Do not configure demo vendors unless the user explicitly asks for a dry-run placeholder.
+Do not configure demo vendors unless the user explicitly asks for a dry-run placeholder.
 
 ## Repos and folders
 
@@ -41,9 +39,11 @@ Keep engine/workspace separate. The engine repo is source code. The workspace is
 7. Create or update the user workspace outside the engine repo.
 8. Configure `marketplace.toml` using real providers only.
 
-## Default find providers
+## Provider selection
 
-Desired defaults:
+Use the vendors from the user's prompt. If the user asks Hermes to choose defaults, choose reasonable real marketplaces for the user's country and goal.
+
+Examples only, not defaults:
 
 ```toml
 [[vendors]]
@@ -57,7 +57,7 @@ type = "ebay"
 enabled = true
 ```
 
-If Amazon/eBay plugins do not exist or fail, implement or repair them using the vendor-builder skill plus the full browser-harness submodule. Use:
+If a provider plugin does not exist or fails, implement or repair it using the vendor-builder skill plus the full browser-harness submodule. For Amazon/eBay specifically, useful references are:
 
 - Amazon reference: `third_party/browser-harness/domain-skills/amazon/product-search.md`
 - eBay reference: `third_party/browser-harness/domain-skills/ebay/scraping.md`
@@ -66,39 +66,36 @@ If a vendor is blocked by login, captcha, anti-bot, or terms-sensitive behavior,
 
 ## Convert user intent into product queries
 
-For “GPUs that can run Qwen locally”, configure something like:
+Convert the user's own goal into concrete categories and queries. Prefer specific model names, brands, constraints, sizes, locations, or compatibility terms over vague keywords.
+
+Template shape:
 
 ```toml
 [[categories]]
-name = "local_ai_gpu"
+name = "<short_category_name>"
 queries = [
-  "rtx 3090 24gb",
-  "rtx 4090 24gb",
-  "rtx 4080 super 16gb",
-  "rtx 4070 ti super 16gb",
-  "rtx a4000 16gb",
-  "rtx a5000 24gb",
-  "rtx a6000 48gb",
-  "tesla p40 24gb"
+  "<specific product query 1>",
+  "<specific product query 2>",
+  "<specific product query 3>"
 ]
 ```
 
-Prefer concrete models and VRAM terms. Avoid vague queries like just `gpu`.
+Fill this from the user's actual goal. Do not insert any default product preferences.
 
 ## Validation
 
 After setup:
 
 1. validate the workspace
-2. run the find workflow
-3. inspect `<workspace>/output/latest.json`
+2. run the requested workflow
+3. inspect `<workspace>/output/latest.json` for find workflows, or the draft JSON for sell workflows
 4. summarize:
    - engine repo path
    - workspace path
    - vendors configured
    - categories/queries configured
    - output path
-   - item count
+   - item count or draft path
    - provider failures and next fix
 
 ## Safety
