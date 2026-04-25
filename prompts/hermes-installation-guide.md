@@ -4,9 +4,9 @@ You are setting up marketplace-agent for the user. Follow this guide before impr
 
 ## Goal
 
-Turn the user's natural-language marketplace goal into a working marketplace-agent workspace.
+Onboard the user, then turn their answers into a working marketplace-agent workspace.
 
-The user's goal and preferred vendors must come from the user's prompt. Do not hardcode the example from this guide into their config.
+Do not assume the user's marketplace goal, products, vendors, country, schedule, or output preference from this guide. Ask first.
 
 Do not configure demo vendors unless the user explicitly asks for a dry-run placeholder.
 
@@ -20,7 +20,7 @@ Use these roles, not hardcoded personal paths:
 
 Keep engine/workspace separate. The engine repo is source code. The workspace is personal config/output.
 
-## Setup steps
+## Setup steps before onboarding
 
 1. Clone or update the engine repo with submodules enabled.
 2. Use `uv` for all Python/project commands. Do not use pip directly.
@@ -36,12 +36,33 @@ Keep engine/workspace separate. The engine repo is source code. The workspace is
    - `third_party/browser-harness/domain-skills/amazon/product-search.md`
    - `third_party/browser-harness/domain-skills/ebay/scraping.md`
 6. Install or run the marketplace-agent CLI from the engine repo.
-7. Create or update the user workspace outside the engine repo.
-8. Configure `marketplace.toml` using real providers only.
+
+## Onboarding questions
+
+Ask these questions before creating the final config. Keep it compact; ask in one message when possible.
+
+Required:
+
+1. Are you using marketplace-agent to find things, sell things, or both?
+2. What are you looking for or selling? Describe it naturally.
+3. What country/region should marketplaces target?
+4. Which marketplaces/vendors do you want to use? If unsure, ask whether Hermes should choose sensible real providers for the region.
+5. Where should the workspace live? Offer a safe default outside the engine repo.
+
+Optional, ask if relevant:
+
+6. Budget or price range?
+7. New/used/refurbished preferences?
+8. Location radius, shipping, or pickup preferences?
+9. How often should this run, if recurring?
+10. Desired output: local JSON/site, GitHub Pages, Discord summary, or just terminal summary?
+11. For sell workflows: should Hermes only create listing drafts? Default is yes.
+
+After the user answers, summarize the intended config briefly and proceed unless something is unclear.
 
 ## Provider selection
 
-Use the vendors from the user's prompt. If the user asks Hermes to choose defaults, choose reasonable real marketplaces for the user's country and goal.
+Use the vendors from onboarding. If the user asks Hermes to choose defaults, choose reasonable real marketplaces for the user's country and goal.
 
 Examples only, not defaults:
 
@@ -81,6 +102,14 @@ queries = [
 ```
 
 Fill this from the user's actual goal. Do not insert any default product preferences.
+
+## Workspace creation and config
+
+After onboarding:
+
+1. Create or update the user workspace outside the engine repo.
+2. Configure `marketplace.toml` using real providers only.
+3. Keep personal config and generated output in the workspace, not the engine repo.
 
 ## Validation
 

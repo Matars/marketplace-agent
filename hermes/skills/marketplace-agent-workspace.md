@@ -28,6 +28,18 @@ uv sync
 uv run pytest -q
 ```
 
+## Onboarding first
+
+Do not invent the user's goal or vendors. Ask compact onboarding questions before creating the final config:
+
+1. Find, sell, or both?
+2. What are they looking for/selling?
+3. Country/region?
+4. Preferred marketplaces/vendors, or should Hermes choose real providers?
+5. Workspace location, with a safe default outside the engine repo?
+
+Optional follow-ups: budget, condition, location radius, shipping/pickup, recurring schedule, output destination.
+
 ## Create workspace
 
 Create a user workspace outside the engine repo. If the workspace exists, edit `marketplace.toml` instead of overwriting unless the user explicitly asks.
