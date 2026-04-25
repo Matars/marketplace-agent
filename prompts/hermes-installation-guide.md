@@ -14,24 +14,32 @@ The default real providers should be Amazon and eBay. Do not configure demo vend
 
 ## Repos and folders
 
-Use these locations by default:
+Use these roles, not hardcoded personal paths:
 
-- engine repo: `~/fafo/marketplace-agent`
-- user workspace: `~/my-marketplace`
+- engine repo: local clone of `https://github.com/Matars/marketplace-agent`
+- browser-harness: full upstream submodule at `<engine repo>/third_party/browser-harness`
+- user workspace: a separate folder outside the engine repo for personal config/output
 
-Keep those separate. The engine repo is source code. The workspace is personal config/output.
+Keep engine/workspace separate. The engine repo is source code. The workspace is personal config/output.
 
 ## Setup steps
 
-1. Clone or update the engine repo from `https://github.com/Matars/marketplace-agent` into `~/fafo/marketplace-agent`.
+1. Clone or update the engine repo with submodules enabled.
 2. Use `uv` for all Python/project commands. Do not use pip directly.
-3. Read these repo skill files:
-   - `~/fafo/marketplace-agent/hermes/skills/marketplace-agent-workspace.md`
-   - `~/fafo/marketplace-agent/hermes/skills/marketplace-agent-vendor-builder.md`
-   - `~/fafo/marketplace-agent/hermes/skills/marketplace-agent-sell-draft.md`
-4. Install or run the CLI from the repo.
-5. Create or update the user workspace at `~/my-marketplace`.
-6. Configure `marketplace.toml` using real providers only.
+3. Ensure the full browser-harness submodule exists at `third_party/browser-harness`. If missing, initialize submodules.
+4. Read these repo skill files:
+   - `hermes/skills/marketplace-agent-workspace.md`
+   - `hermes/skills/marketplace-agent-vendor-builder.md`
+   - `hermes/skills/marketplace-agent-browser-harness.md`
+   - `hermes/skills/marketplace-agent-sell-draft.md`
+5. Read browser-harness files from the full submodule when vendor discovery/scraper repair is needed:
+   - `third_party/browser-harness/SKILL.md`
+   - `third_party/browser-harness/install.md`
+   - `third_party/browser-harness/domain-skills/amazon/product-search.md`
+   - `third_party/browser-harness/domain-skills/ebay/scraping.md`
+6. Install or run the marketplace-agent CLI from the engine repo.
+7. Create or update the user workspace outside the engine repo.
+8. Configure `marketplace.toml` using real providers only.
 
 ## Default find providers
 
@@ -49,7 +57,12 @@ type = "ebay"
 enabled = true
 ```
 
-If Amazon/eBay plugins do not exist or fail, implement or repair them using the vendor-builder skill. If a vendor is blocked by login, captcha, anti-bot, or terms-sensitive behavior, stop and explain the issue before trying to bypass it.
+If Amazon/eBay plugins do not exist or fail, implement or repair them using the vendor-builder skill plus the full browser-harness submodule. Use:
+
+- Amazon reference: `third_party/browser-harness/domain-skills/amazon/product-search.md`
+- eBay reference: `third_party/browser-harness/domain-skills/ebay/scraping.md`
+
+If a vendor is blocked by login, captcha, anti-bot, or terms-sensitive behavior, stop and explain the issue before trying to bypass it.
 
 ## Convert user intent into product queries
 
@@ -78,8 +91,9 @@ After setup:
 
 1. validate the workspace
 2. run the find workflow
-3. inspect `~/my-marketplace/output/latest.json`
+3. inspect `<workspace>/output/latest.json`
 4. summarize:
+   - engine repo path
    - workspace path
    - vendors configured
    - categories/queries configured

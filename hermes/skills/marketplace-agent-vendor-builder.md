@@ -29,6 +29,21 @@ class BlocketVendor(Vendor):
 
 Implement `search(query: str, category: str | None = None) -> list[Item]` first. Do not implement posting/message automation unless explicitly requested and safety-reviewed.
 
+## Browser-harness first
+
+For marketplace sites, prefer browser-harness for discovery. Read:
+
+- `hermes/skills/marketplace-agent-browser-harness.md`
+- `third_party/browser-harness/SKILL.md`
+- `third_party/browser-harness/install.md`
+
+For default providers, also read:
+
+- Amazon: `third_party/browser-harness/domain-skills/amazon/product-search.md`
+- eBay: `third_party/browser-harness/domain-skills/ebay/scraping.md`
+
+Use browser-harness to learn the site, then encode the durable knowledge into the vendor plugin. Do not make every normal `find` run depend on a live browser unless HTTP/API scraping is impossible.
+
 ## Browser analysis workflow
 
 1. Open the vendor search page with a representative query.

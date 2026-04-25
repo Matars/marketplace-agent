@@ -134,12 +134,19 @@ Marketplace-agent repo:
 Read these local repo skill files first, then follow them:
 - {repo / 'hermes' / 'skills' / 'marketplace-agent-workspace.md'}
 - {repo / 'hermes' / 'skills' / 'marketplace-agent-vendor-builder.md'}
+- {repo / 'hermes' / 'skills' / 'marketplace-agent-browser-harness.md'}
 - {repo / 'hermes' / 'skills' / 'marketplace-agent-sell-draft.md'}
 
-If those files are missing, install/update the repo from https://github.com/Matars/marketplace-agent and continue with the closest available workflow.
+Use the full browser-harness submodule for vendor discovery:
+- {repo / 'third_party' / 'browser-harness' / 'SKILL.md'}
+- {repo / 'third_party' / 'browser-harness' / 'install.md'}
+- {repo / 'third_party' / 'browser-harness' / 'domain-skills' / 'amazon' / 'product-search.md'}
+- {repo / 'third_party' / 'browser-harness' / 'domain-skills' / 'ebay' / 'scraping.md'}
+
+If those files are missing, clone/update the repo with submodules enabled from https://github.com/Matars/marketplace-agent and continue with the closest available workflow.
 
 Default workflow:
-1. Install or update marketplace-agent from https://github.com/Matars/marketplace-agent using uv.
+1. Clone or update marketplace-agent with submodules enabled from https://github.com/Matars/marketplace-agent using uv where applicable.
 2. Create or update the workspace above. Keep it separate from the engine repo.
 3. Convert my goal into concrete marketplace categories and product queries.
 4. Configure the workspace marketplace.toml.

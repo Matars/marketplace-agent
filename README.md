@@ -16,15 +16,16 @@ Default vendors:
 Amazon and eBay.
 
 Do this:
-1. Clone or update https://github.com/Matars/marketplace-agent at ~/fafo/marketplace-agent.
-2. Read ~/fafo/marketplace-agent/prompts/hermes-installation-guide.md first.
+1. Clone or update https://github.com/Matars/marketplace-agent with submodules enabled.
+2. Read the repo file prompts/hermes-installation-guide.md first.
 3. Follow that guide exactly.
-4. Create or update my user workspace at ~/my-marketplace.
+4. Create or update a separate user workspace outside the engine repo.
 5. Do not configure demo vendors. Use real providers only: amazon and ebay by default.
-6. If a provider plugin is missing or broken, use the repo vendor-builder skill and browser/browser-harness tools to implement or repair it.
-7. Configure products/categories from my goal. For Qwen GPUs, prefer concrete GPU queries with enough VRAM.
-8. Run the validation and find workflow from the guide.
-9. Show me where the output JSON is and summarize what worked.
+6. Use the bundled browser-harness submodule at third_party/browser-harness for vendor discovery/scraper repair.
+7. If a provider plugin is missing or broken, use the repo vendor-builder and browser-harness skills to implement or repair it.
+8. Configure products/categories from my goal. For Qwen GPUs, prefer concrete GPU queries with enough VRAM.
+9. Run the validation and find workflow from the guide.
+10. Show me where the output JSON is and summarize what worked.
 
 Safety:
 - Do not auto-post sell listings.
@@ -48,7 +49,14 @@ Supporting repo skills:
 ```text
 hermes/skills/marketplace-agent-workspace.md
 hermes/skills/marketplace-agent-vendor-builder.md
+hermes/skills/marketplace-agent-browser-harness.md
 hermes/skills/marketplace-agent-sell-draft.md
+```
+
+Browser-harness is included as a full upstream submodule:
+
+```text
+third_party/browser-harness/
 ```
 
 ## Current status

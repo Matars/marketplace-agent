@@ -12,14 +12,15 @@ Default vendors:
 Amazon and eBay.
 
 Do this:
-1. Clone or update https://github.com/Matars/marketplace-agent at ~/fafo/marketplace-agent.
-2. Read ~/fafo/marketplace-agent/prompts/hermes-installation-guide.md first.
+1. Clone or update https://github.com/Matars/marketplace-agent with submodules enabled.
+2. Read prompts/hermes-installation-guide.md first.
 3. Follow that guide exactly.
-4. Create or update my user workspace at ~/my-marketplace.
+4. Create or update a separate user workspace outside the engine repo.
 5. Do not configure demo vendors. Use real providers only: amazon and ebay by default.
-6. If a provider plugin is missing or broken, use the repo vendor-builder skill and browser/browser-harness tools to implement or repair it.
-7. Run validation and the find/sell workflow from the guide.
-8. Summarize what worked, what failed, and the exact next step.
+6. Use the bundled browser-harness submodule at third_party/browser-harness for vendor discovery/scraper repair.
+7. If a provider plugin is missing or broken, use the repo vendor-builder and browser-harness skills to implement or repair it.
+8. Run validation and the find/sell workflow from the guide.
+9. Summarize what worked, what failed, and the exact next step.
 
 Safety:
 - Do not auto-post sell listings.

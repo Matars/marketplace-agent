@@ -36,7 +36,11 @@ def test_hermes_prompt_find_generates_single_copy_paste_prompt(tmp_path: Path):
     assert "Read these local repo skill files first" in result.output
     assert "hermes/skills/marketplace-agent-workspace.md" in result.output
     assert "hermes/skills/marketplace-agent-vendor-builder.md" in result.output
+    assert "hermes/skills/marketplace-agent-browser-harness.md" in result.output
     assert "hermes/skills/marketplace-agent-sell-draft.md" in result.output
+    assert "third_party/browser-harness/SKILL.md" in result.output
+    assert "domain-skills/amazon/product-search.md" in result.output
+    assert "domain-skills/ebay/scraping.md" in result.output
     assert "amazon" in result.output
     assert "ebay" in result.output
     assert "Do not auto-post" in result.output
