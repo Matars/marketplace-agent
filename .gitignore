@@ -23,9 +23,15 @@ ENV/
 .env
 .env.local
 
-# Runtime project data
+# Local user workspaces / runtime project data
+# Normal users should initialize config outside this repo. These ignores keep
+# accidental in-repo test workspaces from creating update conflicts.
+/workspace/
+/workspaces/
+/my-marketplace/
+marketplace.toml
 output/
-.marketplace-agent/diagnostics/
+.marketplace-agent/
 *.db
 *.sqlite
 *.sqlite3
