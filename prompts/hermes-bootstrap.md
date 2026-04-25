@@ -12,11 +12,10 @@ Do this:
 4. Start onboarding by asking me the required setup questions from the guide.
 5. After I answer, create or update a separate user workspace outside the engine repo.
 6. Configure marketplace-agent from my answers.
-7. Do not configure demo vendors unless I explicitly ask for a dry-run placeholder.
-8. Use the bundled browser-harness submodule at third_party/browser-harness for vendor discovery/scraper repair.
-9. If a provider plugin is missing or broken, use the repo vendor-builder and browser-harness skills to implement or repair it.
-10. Run validation and the requested workflow from the guide.
-11. Summarize what worked, what failed, and the exact next step.
+7. Use the bundled browser-harness submodule at third_party/browser-harness for vendor discovery/scraper repair.
+8. If a provider plugin is missing or broken, use the repo vendor-builder and browser-harness skills to implement or repair it.
+9. Run validation and the requested workflow from the guide.
+10. Summarize what worked, what failed, and the exact next step.
 
 Safety:
 - Do not auto-post sell listings.

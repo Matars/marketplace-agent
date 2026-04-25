@@ -67,7 +67,7 @@ queries = ["specific product 1", "specific product 2"]
 
 Use the vendors requested by the user. If the user asks Hermes to choose, pick sensible real providers for the user's country and goal.
 
-Do not configure demo vendors unless the user explicitly asks for a dry-run placeholder. If a requested vendor plugin does not exist, use marketplace-agent-vendor-builder to create it.
+If a requested vendor plugin does not exist, use marketplace-agent-vendor-builder to create it.
 
 ## Run and verify
 

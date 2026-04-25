@@ -8,8 +8,6 @@ Onboard the user, then turn their answers into a working marketplace-agent works
 
 Do not assume the user's marketplace goal, products, vendors, country, schedule, or output preference from this guide. Ask first.
 
-Do not configure demo vendors unless the user explicitly asks for a dry-run placeholder.
-
 ## Repos and folders
 
 Use these roles, not hardcoded personal paths:

@@ -11,7 +11,8 @@ from rich.console import Console
 from marketplace_agent.config import MarketplaceConfig
 from marketplace_agent.models import Item
 from marketplace_agent.vendors.base import Vendor
-from marketplace_agent.vendors.builtins.demo import DemoVendor
+from marketplace_agent.vendors.builtins.amazon import AmazonVendor
+from marketplace_agent.vendors.builtins.ebay import EBayVendor
 
 app = typer.Typer(help="Marketplace automation: find deals now, draft listings later.")
 hermes_app = typer.Typer(help="Generate Hermes-friendly context and task prompts.")
@@ -21,7 +22,8 @@ app.add_typer(hermes_app, name="hermes")
 console = Console()
 
 BUILTIN_VENDORS: dict[str, type[Vendor]] = {
-    "demo": DemoVendor,
+    "amazon": AmazonVendor,
+    "ebay": EBayVendor,
 }
 
 
@@ -43,11 +45,15 @@ timezone = "Europe/Stockholm"
 [find]
 enabled = true
 
-# Start with the offline demo vendor so `marketplace-agent find .` works immediately.
-# Replace/add real vendors as they become available.
+# Amazon and eBay are the default real providers.
 [[vendors]]
-name = "demo"
-type = "demo"
+name = "amazon"
+type = "amazon"
+enabled = true
+
+[[vendors]]
+name = "ebay"
+type = "ebay"
 enabled = true
 
 # Products/categories to search for. Add your own queries here.

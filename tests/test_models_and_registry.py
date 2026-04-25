@@ -3,8 +3,8 @@ from marketplace_agent.vendors.base import Vendor
 from marketplace_agent.vendors.registry import VendorRegistry
 
 
-class DemoVendor(Vendor):
-    name = "demo"
+class ExampleVendor(Vendor):
+    name = "example"
     capabilities = frozenset({VendorCapability.SEARCH, VendorCapability.PRICE_RESEARCH})
 
     def search(self, query: str, category: str | None = None) -> list[Item]:
@@ -13,20 +13,20 @@ class DemoVendor(Vendor):
 
 def test_vendor_registry_finds_vendors_by_capability():
     registry = VendorRegistry()
-    registry.register(DemoVendor)
+    registry.register(ExampleVendor)
 
-    assert registry.names() == ["demo"]
-    assert registry.for_capability(VendorCapability.SEARCH) == [DemoVendor]
+    assert registry.names() == ["example"]
+    assert registry.for_capability(VendorCapability.SEARCH) == [ExampleVendor]
     assert registry.for_capability(VendorCapability.POST_LISTING) == []
 
 
 def test_vendor_search_returns_normalized_items():
-    vendor = DemoVendor()
+    vendor = ExampleVendor()
 
     items = vendor.search("rtx 3060", category="gpu")
 
     assert items[0].title == "rtx 3060 item"
-    assert items[0].source == "demo"
+    assert items[0].source == "example"
     assert items[0].category == "gpu"
 
 

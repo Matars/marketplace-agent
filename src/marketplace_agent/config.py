@@ -21,7 +21,7 @@ class CategoryConfig(BaseModel):
 
 class VendorConfig(BaseModel):
     name: str
-    type: str = "demo"
+    type: str
     enabled: bool = True
 
 
