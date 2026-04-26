@@ -56,6 +56,8 @@ If the vendor/site is missing, ask the user for it instead of requiring them to 
 5. Implement or repair the provider.
 6. Add tests or small fixtures when practical.
 7. Run targeted validation and then the workspace find workflow.
+8. Normalize latest output for frontend rendering:
+   - `python3 frontend/scripts/normalize_latest_json.py --input <workspace>/output/latest.json --output frontend/data/items-normalized.json`
 
 ## Safety
 

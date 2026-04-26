@@ -36,11 +36,12 @@ hermes skills install Matars/marketplace-agent/skills/marketplace-agent-find-dea
 hermes skills install Matars/marketplace-agent/skills/marketplace-agent-update-search --yes
 hermes skills install Matars/marketplace-agent/skills/marketplace-agent-vendor-repair --yes
 hermes skills install Matars/marketplace-agent/skills/marketplace-agent-sell-draft --yes
+hermes skills install Matars/marketplace-agent/skills/marketplace-agent-frontend-view --yes --force
 ```
 
-Why `--force` for two skills?
+Why `--force` for some skills?
 
-`marketplace-agent-workspace` and `marketplace-agent-find-deals` include runnable command examples like `uv run marketplace-agent ...`. Hermes Hub flags those as `supply_chain` CAUTION for community skills and blocks by default. In this repo those commands are intentional and required for normal operation, so `--force` is used to explicitly trust and install them.
+`marketplace-agent-workspace`, `marketplace-agent-find-deals`, and `marketplace-agent-frontend-view` include runnable command examples like `uv run ...` / `python3 ...`. Hermes Hub can flag those as `supply_chain` CAUTION for community skills and block by default. In this repo those commands are intentional and required for normal operation, so `--force` is used to explicitly trust and install them.
 
 
 After that, keep skills updated with:
@@ -115,6 +116,48 @@ Add or repair a marketplace/vendor.
 Create a sell-listing draft.
 ```
 
+### Refresh frontend data
+
+```text
+/marketplace-agent-frontend-view
+
+Refresh frontend data from latest.json and verify frontend files.
+```
+
+## Frontend viewer (universal latest.json parser)
+
+This repo now includes a static frontend in `frontend/` that can always render deal results from `latest.json`.
+
+Flow:
+
+1. Run the find workflow to generate/update `workspaces/default/output/latest.json`.
+2. Normalize that file for UI rendering.
+3. Open or publish the static frontend.
+
+Normalize command:
+
+```bash
+python3 frontend/scripts/normalize_latest_json.py \
+  --input workspaces/default/output/latest.json \
+  --output frontend/data/items-normalized.json
+```
+
+Then view:
+
+- local: open `frontend/index.html` (or serve the repo with any static server)
+- GitHub Pages: publish the `frontend/` folder
+
+Frontend files:
+
+```text
+frontend/index.html
+frontend/styles.css
+frontend/app.js
+frontend/data/items-normalized.json
+frontend/scripts/normalize_latest_json.py
+frontend/README.md
+```
+
 ## What Hermes should read
 
 The full onboarding/installation/orchestration guide is here:
@@ -132,6 +175,7 @@ skills/marketplace-agent-find-deals/SKILL.md
 skills/marketplace-agent-update-search/SKILL.md
 skills/marketplace-agent-vendor-repair/SKILL.md
 skills/marketplace-agent-sell-draft/SKILL.md
+skills/marketplace-agent-frontend-view/SKILL.md
 ```
 
 Legacy repo prompt support files are also kept here:

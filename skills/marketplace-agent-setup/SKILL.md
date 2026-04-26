@@ -28,6 +28,7 @@ Keep user config, generated vendors, diagnostics, and output inside the gitignor
    - `skills/marketplace-agent-workspace/SKILL.md` or `hermes/skills/marketplace-agent-workspace.md`
    - `skills/marketplace-agent-vendor-repair/SKILL.md` or `hermes/skills/marketplace-agent-vendor-builder.md`
    - `skills/marketplace-agent-sell-draft/SKILL.md` or `hermes/skills/marketplace-agent-sell-draft.md`
+   - `frontend/README.md` and `frontend/scripts/normalize_latest_json.py` (for web UI output)
 4. Ask compact onboarding questions before final config. Do not require the user to include these in the copied prompt:
    - find, sell, or both?
    - what should be found or sold?
@@ -41,7 +42,15 @@ Keep user config, generated vendors, diagnostics, and output inside the gitignor
 8. If a requested vendor is missing or broken, use the marketplace-agent vendor repair skill.
 9. Run validation, then the requested workflow.
 10. Inspect output (`output/latest.json` for find workflows, draft JSON for sell workflows).
-11. Summarize repo path, workspace path, vendors, categories/queries, output path, what worked, and what failed.
+11. For find workflows, normalize latest output for frontend rendering:
+
+```bash
+python3 frontend/scripts/normalize_latest_json.py \
+  --input <workspace>/output/latest.json \
+  --output frontend/data/items-normalized.json
+```
+
+12. Summarize repo path, workspace path, vendors, categories/queries, output path, frontend output path, what worked, and what failed.
 
 ## Safety
 

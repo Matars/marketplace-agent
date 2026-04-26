@@ -1,0 +1,102 @@
+:root {
+  --bg: #0b1020;
+  --panel: #141b2d;
+  --panel-2: #1a233a;
+  --text: #e8eefc;
+  --muted: #aab7d6;
+  --accent: #6ea8fe;
+  --green: #4ade80;
+  --border: #273557;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: linear-gradient(180deg, #0b1020 0%, #0f1629 100%);
+  color: var(--text);
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1.2rem 1rem;
+  border-bottom: 1px solid var(--border);
+  background: rgba(11, 16, 32, 0.9);
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(8px);
+  z-index: 10;
+}
+h1 { margin: 0; font-size: 1.35rem; text-transform: lowercase; }
+#metaLine { margin: .25rem 0 0; color: var(--muted); font-size: .9rem; }
+.stats { display: flex; gap: .5rem; flex-wrap: wrap; justify-content: flex-end; }
+.badge {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  padding: .35rem .6rem;
+  border-radius: 999px;
+  font-size: .8rem;
+  color: var(--muted);
+}
+.controls {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr auto;
+  gap: .6rem;
+  padding: .8rem 1rem;
+}
+input, select, button {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: .65rem;
+  padding: .65rem .75rem;
+  font-size: .92rem;
+}
+button { cursor: pointer; }
+main { padding: 1rem; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: .8rem;
+}
+.card {
+  background: linear-gradient(180deg, var(--panel) 0%, var(--panel-2) 100%);
+  border: 1px solid var(--border);
+  border-radius: .85rem;
+  padding: .85rem;
+}
+.card h3 {
+  margin: 0 0 .55rem;
+  font-size: .98rem;
+  line-height: 1.35;
+}
+.price {
+  color: var(--green);
+  font-weight: 700;
+  margin-bottom: .45rem;
+}
+.meta {
+  color: var(--muted);
+  font-size: .83rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem .5rem;
+}
+.pill {
+  border: 1px solid var(--border);
+  background: #10192f;
+  border-radius: 999px;
+  padding: .2rem .5rem;
+}
+.card a {
+  margin-top: .6rem;
+  display: inline-block;
+  color: var(--accent);
+  text-decoration: none;
+}
+.empty { color: var(--muted); }
+.hidden { display: none; }
+@media (max-width: 920px) {
+  .controls { grid-template-columns: 1fr 1fr; }
+}

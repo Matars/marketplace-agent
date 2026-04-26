@@ -31,11 +31,14 @@ Do not redo first-time onboarding unless required config is missing. If the repo
    - prefer `uv run marketplace-agent find <workspace>` from the repo
    - otherwise use `marketplace-agent find <workspace>`
 5. Inspect `<workspace>/output/latest.json`.
-6. Summarize:
+6. Normalize latest output for frontend rendering:
+   - `python3 frontend/scripts/normalize_latest_json.py --input <workspace>/output/latest.json --output frontend/data/items-normalized.json`
+7. Summarize:
    - strongest results first
    - prices/currency/location when available
    - source/vendor and URL
    - provider failures or zero-result categories
+   - output path and frontend path (`frontend/data/items-normalized.json`)
    - exact next command to rerun or adjust the search brief
 
 ## Safety / quality

@@ -38,12 +38,15 @@ If the new search brief is missing, ask the user for it instead of requiring the
 7. Validate the workspace.
 8. Run the find workflow.
 9. Inspect `<workspace>/output/latest.json`.
-10. Summarize:
+10. Normalize latest output for frontend rendering:
+   - `python3 frontend/scripts/normalize_latest_json.py --input <workspace>/output/latest.json --output frontend/data/items-normalized.json`
+11. Summarize:
    - what changed in config
    - configured vendors
    - categories/queries
    - best results
    - provider failures or missing provider work
+   - frontend output path (`frontend/data/items-normalized.json`)
 
 ## Quality rules
 

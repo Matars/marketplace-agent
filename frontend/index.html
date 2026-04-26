@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>marketplace-agent deals viewer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>deals viewer</h1>
+        <p id="metaLine">loading…</p>
+      </div>
+      <div class="stats" id="stats"></div>
+    </header>
+
+    <section class="controls">
+      <input id="search" type="search" placeholder="search title, category, source, location" />
+      <select id="category"><option value="">all categories</option></select>
+      <select id="source"><option value="">all sources</option></select>
+      <select id="sort">
+        <option value="price_asc">price: low -> high</option>
+        <option value="price_desc">price: high -> low</option>
+        <option value="title_asc">title: a -> z</option>
+      </select>
+      <button id="clear">clear</button>
+    </section>
+
+    <main>
+      <div id="cards" class="cards"></div>
+      <p id="empty" class="empty hidden">no items match your filters.</p>
+    </main>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

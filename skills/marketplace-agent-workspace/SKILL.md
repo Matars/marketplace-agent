@@ -86,12 +86,14 @@ From the repo, prefer:
 uv run marketplace-agent doctor <workspace>
 uv run marketplace-agent find <workspace>
 python3 -m json.tool <workspace>/output/latest.json
+python3 frontend/scripts/normalize_latest_json.py --input <workspace>/output/latest.json --output frontend/data/items-normalized.json
 ```
 
 Success means:
 
 - command exits 0
 - `output/latest.json` exists for find workflows
+- `frontend/data/items-normalized.json` exists for web UI rendering
 - JSON includes title, url, source, category, price/currency when available
 
 ## Hermes context

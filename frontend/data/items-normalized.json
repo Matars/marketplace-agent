@@ -1,0 +1,3302 @@
+{
+  "workspace": "Sacrificial Marketplace Agent",
+  "generated_at": "2026-04-26T15:36:15.069155+00:00",
+  "normalized_at": "2026-04-26T15:48:07.096263+00:00",
+  "count": 183,
+  "items": [
+    {
+      "id": 22679542,
+      "title": "Asus TUF Gaming GeForce RTX 3090 24GB grafikkort",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22679542",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 9850,
+      "currency": "SEK",
+      "location": "Enköping",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Enköping",
+        "ad_id": 22679542,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22662950,
+      "title": "RTX 3090 24GB AORUS Xtreme",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22662950",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 8500,
+      "currency": "SEK",
+      "location": "Hudiksvall",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Hudiksvall",
+        "ad_id": 22662950,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 17731751,
+      "title": "Dell Precision 5820 18-Core / RTX 3090 / 3TB SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/17731751",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 24495,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Bromma",
+        "ad_id": 17731751,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22623015,
+      "title": "Asus ROG Strix GeForce RTX 3090 White 24GB GDDR6X",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22623015",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 8499,
+      "currency": "SEK",
+      "location": "Malung",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Malung",
+        "ad_id": 22623015,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22614202,
+      "title": "Ultimat Gaming- & Workstation-paket | RTX 3090 | 49\" Samsung G9 | Razer",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22614202",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 25000,
+      "currency": "SEK",
+      "location": "Habo",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Habo",
+        "ad_id": 22614202,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22599586,
+      "title": "RTX 3090 24GB Gainward",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22599586",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 8500,
+      "currency": "SEK",
+      "location": "Solna",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Solna",
+        "ad_id": 22599586,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22569794,
+      "title": "GeForce RTX 3090 ti 24 GB Asus TUF Gaming",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22569794",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 9500,
+      "currency": "SEK",
+      "location": "Uppsala",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Uppsala",
+        "ad_id": 22569794,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22475795,
+      "title": "Workstation & Gaming PC - RTX 3090, Ryzen 9 5900X, 64GB DDR4 and more.",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22475795",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 18500,
+      "currency": "SEK",
+      "location": "Stockholm",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Stockholm",
+        "ad_id": 22475795,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22188185,
+      "title": "PNY GeForce RTX™ 3090 24GB XLR8 Gaming EPIC-X RGB™ Triple Fan Graphics Card",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22188185",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 15000,
+      "currency": "SEK",
+      "location": "Segeltorp",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Segeltorp",
+        "ad_id": 22188185,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21429534,
+      "title": "Gainward RTX 3090 Phantom 24gb",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21429534",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 9900,
+      "currency": "SEK",
+      "location": "Linköping",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Linköping",
+        "ad_id": 21429534,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21162434,
+      "title": "Gamingpaket: RTX 3090 + i9-11900KF + LG 27GL83A (1440p 144Hz)",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21162434",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 18500,
+      "currency": "SEK",
+      "location": "Helsingborg",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Helsingborg",
+        "ad_id": 21162434,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 593783,
+      "title": "Grafikkort olika modeller GeForce GTX & RTX",
+      "url": "https://www.blocket.se/recommerce/forsale/item/593783",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 0,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Bromma",
+        "ad_id": 593783,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21721172,
+      "title": "Streaming & Gaming Ready – RTX 4070 Ti / AM5 / DDR5 / RGB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21721172",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 15490,
+      "currency": "SEK",
+      "location": "Öjersjö",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Öjersjö",
+        "ad_id": 21721172,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21115015,
+      "title": "Ny PC RTX 5070Ti, 9800X3D. DDR5 6000, 2TB SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21115015",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 25690,
+      "currency": "SEK",
+      "location": "Göteborg",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Göteborg",
+        "ad_id": 21115015,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20508794,
+      "title": "XFX Radeon RX 6950 XT Grafikkort",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20508794",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 5000,
+      "currency": "SEK",
+      "location": "Malmö",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Malmö",
+        "ad_id": 20508794,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21301028,
+      "title": "Nvidia Tesla V 100 - 32 gb grafikkort",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21301028",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 12000,
+      "currency": "SEK",
+      "location": "Jönköping",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Jönköping",
+        "ad_id": 21301028,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22114097,
+      "title": "Grym Speldator - 3060 Ti - Ryzen 5 5600X",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22114097",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 7399,
+      "currency": "SEK",
+      "location": "Jordbro",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Jordbro",
+        "ad_id": 22114097,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22702985,
+      "title": "GTSA Infinity - Stationär gaming-/redigeringsdator",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22702985",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 22000,
+      "currency": "SEK",
+      "location": "Halmstad",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Halmstad",
+        "ad_id": 22702985,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21746962,
+      "title": "Gaming PC",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21746962",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 30000,
+      "currency": "SEK",
+      "location": "Kristinehamn",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Kristinehamn",
+        "ad_id": 21746962,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20211729,
+      "title": "4 kompletta mining-riggar – 24 GPU – redo att användas",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20211729",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 29900,
+      "currency": "SEK",
+      "location": "Varekil",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Varekil",
+        "ad_id": 20211729,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21672183,
+      "title": "Kraftfull Gaming- & Arbetsdator – High-End Prestanda!",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21672183",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 22500,
+      "currency": "SEK",
+      "location": "Sala",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Sala",
+        "ad_id": 21672183,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21945987,
+      "title": "Speldator RTX3080/5900X",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21945987",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 12000,
+      "currency": "SEK",
+      "location": "Spekeröd",
+      "condition": "",
+      "query": "RTX 3090",
+      "raw_metadata": {
+        "query": "RTX 3090",
+        "location": "Spekeröd",
+        "ad_id": 21945987,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22629720,
+      "title": "Asus ROG Strix RTX 4090 24GB Gaming OC",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22629720",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 21900,
+      "currency": "SEK",
+      "location": "Borås",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Borås",
+        "ad_id": 22629720,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20802626,
+      "title": "Zotac Gaming Amp Airo Geforce RTX 4090",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20802626",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 22995,
+      "currency": "SEK",
+      "location": "Knivsta",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Knivsta",
+        "ad_id": 20802626,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22619078,
+      "title": "Gamingdator RTX 4090",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22619078",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 26990,
+      "currency": "SEK",
+      "location": "Mjölby",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Mjölby",
+        "ad_id": 22619078,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22605313,
+      "title": "RTX 4090 Gaming-PC – Ryzen 9 7950X, 64GB DDR5, 2TB SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22605313",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 35000,
+      "currency": "SEK",
+      "location": "Stockholm",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Stockholm",
+        "ad_id": 22605313,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22542712,
+      "title": "Msi gaming laptop intel i9 rtx 4090",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22542712",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 24000,
+      "currency": "SEK",
+      "location": "Timrå",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Timrå",
+        "ad_id": 22542712,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22585400,
+      "title": "ASUS GeForce TUF RTX 4090",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22585400",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 22000,
+      "currency": "SEK",
+      "location": "Eslöv",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Eslöv",
+        "ad_id": 22585400,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22576429,
+      "title": "RTX 4090 Gamingdator - Ryzen 7 7700X, 32GB RAM, 1TB SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22576429",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 29000,
+      "currency": "SEK",
+      "location": "Umeå",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Umeå",
+        "ad_id": 22576429,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22565748,
+      "title": "HP Omen 45 Lstationär dator Intel Core i9 64GB RAM RTX 4090",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22565748",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 35000,
+      "currency": "SEK",
+      "location": "Täby",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Täby",
+        "ad_id": 22565748,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22520388,
+      "title": "*Gainward RTX 4090 Phantom 24GB*",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22520388",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 21000,
+      "currency": "SEK",
+      "location": "Mölndal",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Mölndal",
+        "ad_id": 22520388,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20817901,
+      "title": "Gamingdator | i9 Ultra, RTX 4090, 3TB, 64GB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20817901",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 33333,
+      "currency": "SEK",
+      "location": "Järfälla",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Järfälla",
+        "ad_id": 20817901,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22323973,
+      "title": "Gigabyte AORUS GeForce RTX 4090 MASTER Grafikkort",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22323973",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 25000,
+      "currency": "SEK",
+      "location": "Visby",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Visby",
+        "ad_id": 22323973,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 18391386,
+      "title": "MSi Raider 17'' 240Hz RTX 4090 16GB 2TB 32GB i9 Nyskick",
+      "url": "https://www.blocket.se/recommerce/forsale/item/18391386",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 23000,
+      "currency": "SEK",
+      "location": "Järpås",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Järpås",
+        "ad_id": 18391386,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22101731,
+      "title": "Stationär dator - ultra - i9 14900K / RTX 4090",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22101731",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 35000,
+      "currency": "SEK",
+      "location": "Sollentuna",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Sollentuna",
+        "ad_id": 22101731,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21940990,
+      "title": "Gaming PC RTX 4090 STRIX",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21940990",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 35000,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Bromma",
+        "ad_id": 21940990,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21120348,
+      "title": "ASUS GeForce RTX 4090 bytes",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21120348",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 1337,
+      "currency": "SEK",
+      "location": "Märsta",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Märsta",
+        "ad_id": 21120348,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22329900,
+      "title": "Webhallen config ultra - 4090 - 13900k",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22329900",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 33000,
+      "currency": "SEK",
+      "location": "Sigtuna",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Sigtuna",
+        "ad_id": 22329900,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21995305,
+      "title": "Be Quiet! Dark Power Pro 1500W + Corsair vita fläktar",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21995305",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 4750,
+      "currency": "SEK",
+      "location": "Kungsängen",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Kungsängen",
+        "ad_id": 21995305,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20081137,
+      "title": "Nätaggregat: Antec Signature 1300W Platinum (High-End) NYTT/Inplastat",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20081137",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 1950,
+      "currency": "SEK",
+      "location": "Uppsala",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Uppsala",
+        "ad_id": 20081137,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21576430,
+      "title": "Kraftfull arbetsstation / Gaming-bas (Ryzen 9 3900X, 32GB RAM, 1200W Platinum)",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21576430",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 6200,
+      "currency": "SEK",
+      "location": "Umeå",
+      "condition": "",
+      "query": "RTX 4090",
+      "raw_metadata": {
+        "query": "RTX 4090",
+        "location": "Umeå",
+        "ad_id": 21576430,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22708579,
+      "title": "Asus RTX 4080 ROG Strix Gaming",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22708579",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 9500,
+      "currency": "SEK",
+      "location": "Avesta",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Avesta",
+        "ad_id": 22708579,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22585595,
+      "title": "EXTREMT KRAFTFULL GAMINGDATOR – RTX 4080 SUPER / HÖGA FPS",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22585595",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 19990,
+      "currency": "SEK",
+      "location": "Malmö",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Malmö",
+        "ad_id": 22585595,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22577897,
+      "title": "PNY GeForce RTX 4080 16GB VERTO Triple Fan",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22577897",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 7999,
+      "currency": "SEK",
+      "location": "Avesta",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Avesta",
+        "ad_id": 22577897,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22516213,
+      "title": "Gaming dator RTX 4080 64GB ddr5 Ryzen 7 7700x",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22516213",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 17500,
+      "currency": "SEK",
+      "location": "Västra Frölunda",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Västra Frölunda",
+        "ad_id": 22516213,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22419698,
+      "title": "Gigabyte GeForce RTX 4080 16GB Gaming OC",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22419698",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 9999,
+      "currency": "SEK",
+      "location": "Eslöv",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Eslöv",
+        "ad_id": 22419698,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22360247,
+      "title": "ASUS ROG Zephyrus G14 | RTX 4080 | 32GB | Ryzen 9 7940HS",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22360247",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 21000,
+      "currency": "SEK",
+      "location": "Vendelsö",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Vendelsö",
+        "ad_id": 22360247,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22409277,
+      "title": "Gaming dator 7800x3d , 32GB DDR5 , RTX 3080 / RTX 4080 Nybyggd förutom GPU",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22409277",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 15000,
+      "currency": "SEK",
+      "location": "Sundbyberg",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Sundbyberg",
+        "ad_id": 22409277,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20769494,
+      "title": "Nvidia GeForce RTX 4080 Super",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20769494",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 9000,
+      "currency": "SEK",
+      "location": "Sundsvall",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Sundsvall",
+        "ad_id": 20769494,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22357768,
+      "title": "ASUS ProArt RTX 4080 SUPER 16GB OC",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22357768",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 11500,
+      "currency": "SEK",
+      "location": "Solna",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Solna",
+        "ad_id": 22357768,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22353170,
+      "title": "Gaming Dator • 7800X3D • RTX 4080 • 4TB • 64GB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22353170",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 24500,
+      "currency": "SEK",
+      "location": "Härnösand",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Härnösand",
+        "ad_id": 22353170,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22334628,
+      "title": "Grym speldator / I7-13700K / RTX 4080 16GB / DDR5",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22334628",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 20000,
+      "currency": "SEK",
+      "location": "Sunne",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Sunne",
+        "ad_id": 22334628,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22290840,
+      "title": "Palit GameRock GeForce RTX 4080",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22290840",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 7700,
+      "currency": "SEK",
+      "location": "Tullinge",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Tullinge",
+        "ad_id": 22290840,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22106458,
+      "title": "Vit Gamingdator RTX 4080 / i7-14700K / 32GB DDR5 / 4TB SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22106458",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 27000,
+      "currency": "SEK",
+      "location": "Sveg",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Sveg",
+        "ad_id": 22106458,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22092232,
+      "title": "Stationär Dator RTX 4080 Super 64GB DDR5 Ryzen 9 7950x3d",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22092232",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 30000,
+      "currency": "SEK",
+      "location": "Halmstad",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Halmstad",
+        "ad_id": 22092232,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21820012,
+      "title": "Stationär Dator RTX 4080 Super 64GB DDR5 Ryzen 9 7950x3d",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21820012",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 28500,
+      "currency": "SEK",
+      "location": "Gnosjö",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Gnosjö",
+        "ad_id": 21820012,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21740273,
+      "title": "RTX 4080 super proArt -tyst / Som ny / Komplett",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21740273",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 11500,
+      "currency": "SEK",
+      "location": "Tyresö",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Tyresö",
+        "ad_id": 21740273,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20107514,
+      "title": "Lenovo Legion 7i Pro RTX 4080 1 TB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20107514",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 23500,
+      "currency": "SEK",
+      "location": "Stockholm",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Stockholm",
+        "ad_id": 20107514,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21484597,
+      "title": "RTX 4080 RYZEN 7800 X3D + Skärmar",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21484597",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 33000,
+      "currency": "SEK",
+      "location": "Solna",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Solna",
+        "ad_id": 21484597,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21043436,
+      "title": "🔥 RTX 4080 SUPER Gaming PC + 4K 144Hz Samsung G7 – Ryzen 9 7900X / 32GB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21043436",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 23000,
+      "currency": "SEK",
+      "location": "Västra Frölunda",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Västra Frölunda",
+        "ad_id": 21043436,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22234517,
+      "title": "Gamingdator 4080 Super",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22234517",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 23000,
+      "currency": "SEK",
+      "location": "Falköping",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Falköping",
+        "ad_id": 22234517,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22693245,
+      "title": "Asus Geforce RTX 5080 Prime OC 16 GB Säljes / Bytes",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22693245",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 12500,
+      "currency": "SEK",
+      "location": "Hägersten",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Hägersten",
+        "ad_id": 22693245,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22657011,
+      "title": "Nvidia RTX 5080 Founders Edition Ny",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22657011",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 14500,
+      "currency": "SEK",
+      "location": "Linköping",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Linköping",
+        "ad_id": 22657011,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 593783,
+      "title": "Grafikkort olika modeller GeForce GTX & RTX",
+      "url": "https://www.blocket.se/recommerce/forsale/item/593783",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 0,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Bromma",
+        "ad_id": 593783,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22573582,
+      "title": "Gaminglaptop  (RTX 3070 / Ryzen 5 / 144Hz) Acer Nitro 5",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22573582",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 7199,
+      "currency": "SEK",
+      "location": "Fagersta",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Fagersta",
+        "ad_id": 22573582,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22506417,
+      "title": "Asus Geforce RTX 5080 Prime OC 16 GB Säljes / Bytes",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22506417",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 12500,
+      "currency": "SEK",
+      "location": "Hägersten",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Hägersten",
+        "ad_id": 22506417,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21721172,
+      "title": "Streaming & Gaming Ready – RTX 4070 Ti / AM5 / DDR5 / RGB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21721172",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 15490,
+      "currency": "SEK",
+      "location": "Öjersjö",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Öjersjö",
+        "ad_id": 21721172,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21289846,
+      "title": "BYTES - MSI 5070 ti Ventus RTX Nvidia",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21289846",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 8999,
+      "currency": "SEK",
+      "location": "Mölndal",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Mölndal",
+        "ad_id": 21289846,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21180664,
+      "title": "Gaming PC RTX/Ryzen/NZXT",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21180664",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 22990,
+      "currency": "SEK",
+      "location": "Köping",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Köping",
+        "ad_id": 21180664,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21115015,
+      "title": "Ny PC RTX 5070Ti, 9800X3D. DDR5 6000, 2TB SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21115015",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 25690,
+      "currency": "SEK",
+      "location": "Göteborg",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Göteborg",
+        "ad_id": 21115015,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21224215,
+      "title": "Gamingdator plus skärm",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21224215",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 25000,
+      "currency": "SEK",
+      "location": "Landskrona",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Landskrona",
+        "ad_id": 21224215,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22192217,
+      "title": "Komplett Gaming Setup",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22192217",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 30990,
+      "currency": "SEK",
+      "location": "Lidingö",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Lidingö",
+        "ad_id": 22192217,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22524496,
+      "title": "Gaming Dator",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22524496",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 25000,
+      "currency": "SEK",
+      "location": "Lidingö",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Lidingö",
+        "ad_id": 22524496,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21945004,
+      "title": "Kraftfull gamingdator",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21945004",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 22400,
+      "currency": "SEK",
+      "location": "Stockholm",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Stockholm",
+        "ad_id": 21945004,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22513615,
+      "title": "Gaming laptop",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22513615",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 17500,
+      "currency": "SEK",
+      "location": "Simrishamn",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Simrishamn",
+        "ad_id": 22513615,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22193356,
+      "title": "Gaming Setup",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22193356",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 30990,
+      "currency": "SEK",
+      "location": "Lidingö",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Lidingö",
+        "ad_id": 22193356,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22192402,
+      "title": "Asus stationär dator",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22192402",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 30990,
+      "currency": "SEK",
+      "location": "Lidingö",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Lidingö",
+        "ad_id": 22192402,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22114097,
+      "title": "Grym Speldator - 3060 Ti - Ryzen 5 5600X",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22114097",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 7399,
+      "currency": "SEK",
+      "location": "Jordbro",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Jordbro",
+        "ad_id": 22114097,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22678974,
+      "title": "Stationär Gamings Dator",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22678974",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 25000,
+      "currency": "SEK",
+      "location": "Kista",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Kista",
+        "ad_id": 22678974,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21124734,
+      "title": "MSI Vector GP68 HX 13V",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21124734",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 15500,
+      "currency": "SEK",
+      "location": "Uppsala",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Uppsala",
+        "ad_id": 21124734,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22166689,
+      "title": "High end gaming dator, 4080FE, 9800x3d SFF chassi",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22166689",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 22000,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Bromma",
+        "ad_id": 22166689,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20771882,
+      "title": "CRDS Noctua dator",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20771882",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 35000,
+      "currency": "SEK",
+      "location": "Göteborg",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Göteborg",
+        "ad_id": 20771882,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 18611239,
+      "title": "Gaming Dator",
+      "url": "https://www.blocket.se/recommerce/forsale/item/18611239",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 24000,
+      "currency": "SEK",
+      "location": "Timmersdala",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Timmersdala",
+        "ad_id": 18611239,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21576430,
+      "title": "Kraftfull arbetsstation / Gaming-bas (Ryzen 9 3900X, 32GB RAM, 1200W Platinum)",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21576430",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 6200,
+      "currency": "SEK",
+      "location": "Umeå",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Umeå",
+        "ad_id": 21576430,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21559713,
+      "title": "Gaming PC + skärm + stol + komplett setup stationär dator vit chassi",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21559713",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 24000,
+      "currency": "SEK",
+      "location": "Örebro",
+      "condition": "",
+      "query": "RTX 4080",
+      "raw_metadata": {
+        "query": "RTX 4080",
+        "location": "Örebro",
+        "ad_id": 21559713,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22375287,
+      "title": "EXTREM GAMING-PC: RX 7900 XTX (24GB) | i7-13700F | 64GB DDR5",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22375287",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 24999,
+      "currency": "SEK",
+      "location": "Hisings Backa",
+      "condition": "",
+      "query": "RX 7900 XTX",
+      "raw_metadata": {
+        "query": "RX 7900 XTX",
+        "location": "Hisings Backa",
+        "ad_id": 22375287,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22268696,
+      "title": "RX 7900 XTX 24 GB byten.",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22268696",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 6800,
+      "currency": "SEK",
+      "location": "Degerfors",
+      "condition": "",
+      "query": "RX 7900 XTX",
+      "raw_metadata": {
+        "query": "RX 7900 XTX",
+        "location": "Degerfors",
+        "ad_id": 22268696,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 19389032,
+      "title": "Högpresterande Gaming- PC + 4K 144Hz-skärm – TOPPSKICK",
+      "url": "https://www.blocket.se/recommerce/forsale/item/19389032",
+      "source": "blocket",
+      "category": "gpu-local-models",
+      "price": 49000,
+      "currency": "SEK",
+      "location": "Skara",
+      "condition": "",
+      "query": "RX 7900 XTX",
+      "raw_metadata": {
+        "query": "RX 7900 XTX",
+        "location": "Skara",
+        "ad_id": 19389032,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22131988,
+      "title": "Crucial 128GB Kit,  DDR5-5600,  (2 x 64GB)",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22131988",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 8000,
+      "currency": "SEK",
+      "location": "Bandhagen",
+      "condition": "",
+      "query": "DDR5 64GB kit",
+      "raw_metadata": {
+        "query": "DDR5 64GB kit",
+        "location": "Bandhagen",
+        "ad_id": 22131988,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22574183,
+      "title": "Corsair Dominator Platinum RGB 64GB DDR5 6400MHz CL32",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22574183",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 8999,
+      "currency": "SEK",
+      "location": "Göteborg",
+      "condition": "",
+      "query": "DDR5 64GB kit",
+      "raw_metadata": {
+        "query": "DDR5 64GB kit",
+        "location": "Göteborg",
+        "ad_id": 22574183,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21663939,
+      "title": "Kingston Fury Beast DDR5 64GB (2x32GB) 5600MHz – High-End",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21663939",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 4500,
+      "currency": "SEK",
+      "location": "Järfälla",
+      "condition": "",
+      "query": "DDR5 64GB kit",
+      "raw_metadata": {
+        "query": "DDR5 64GB kit",
+        "location": "Järfälla",
+        "ad_id": 21663939,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22225287,
+      "title": "Corsair Dominator DDR5 64GB (4x16) 5600 CL36 AMD EXPO",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22225287",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 6500,
+      "currency": "SEK",
+      "location": "Ödåkra",
+      "condition": "",
+      "query": "DDR5 64GB kit",
+      "raw_metadata": {
+        "query": "DDR5 64GB kit",
+        "location": "Ödåkra",
+        "ad_id": 22225287,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21617458,
+      "title": "G.Skill Trident Z5 Neo RGB 64GB (2x32GB) DDR5 6000MHz CL30",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21617458",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 8300,
+      "currency": "SEK",
+      "location": "Älvsjö",
+      "condition": "",
+      "query": "DDR5 64GB kit",
+      "raw_metadata": {
+        "query": "DDR5 64GB kit",
+        "location": "Älvsjö",
+        "ad_id": 21617458,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22353170,
+      "title": "Gaming Dator • 7800X3D • RTX 4080 • 4TB • 64GB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22353170",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 24500,
+      "currency": "SEK",
+      "location": "Härnösand",
+      "condition": "",
+      "query": "DDR5 64GB kit",
+      "raw_metadata": {
+        "query": "DDR5 64GB kit",
+        "location": "Härnösand",
+        "ad_id": 22353170,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22597974,
+      "title": "Crucial Pro DDR5-6400 CL38 32GB Kit (16GBx2)",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22597974",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 3700,
+      "currency": "SEK",
+      "location": "Oxelösund",
+      "condition": "",
+      "query": "DDR5 32GB kit",
+      "raw_metadata": {
+        "query": "DDR5 32GB kit",
+        "location": "Oxelösund",
+        "ad_id": 22597974,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22558625,
+      "title": "Lexar ARES Gen2 RGB DDR5 RAM 32GB Kit (2x16GB) 6000MHz CL30",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22558625",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 4000,
+      "currency": "SEK",
+      "location": "Eslöv",
+      "condition": "",
+      "query": "DDR5 32GB kit",
+      "raw_metadata": {
+        "query": "DDR5 32GB kit",
+        "location": "Eslöv",
+        "ad_id": 22558625,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22665205,
+      "title": "Gamingdator/ Amd 9700X/ 32GB DDR5/ RTX 5060ti 16gb/",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22665205",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 13000,
+      "currency": "SEK",
+      "location": "Kållered",
+      "condition": "",
+      "query": "DDR5 32GB kit",
+      "raw_metadata": {
+        "query": "DDR5 32GB kit",
+        "location": "Kållered",
+        "ad_id": 22665205,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22414864,
+      "title": "Patriot Viper Venom DDR5 32GB (2x16GB) 5600MHz RAM",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22414864",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 3500,
+      "currency": "SEK",
+      "location": "Tidaholm",
+      "condition": "",
+      "query": "DDR5 32GB kit",
+      "raw_metadata": {
+        "query": "DDR5 32GB kit",
+        "location": "Tidaholm",
+        "ad_id": 22414864,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20586592,
+      "title": "Corsair Vengeance DDR5 32GB (2×16GB) 7200MHz CL34 – NYTT / OÖPPNAT",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20586592",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 3750,
+      "currency": "SEK",
+      "location": "Lund",
+      "condition": "",
+      "query": "DDR5 32GB kit",
+      "raw_metadata": {
+        "query": "DDR5 32GB kit",
+        "location": "Lund",
+        "ad_id": 20586592,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21290150,
+      "title": "Kingston Fury Beast RGB (2x16) DDR5 6000MHz 32GB – (OÖPPNADE)",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21290150",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 4000,
+      "currency": "SEK",
+      "location": "Vega",
+      "condition": "",
+      "query": "DDR5 32GB kit",
+      "raw_metadata": {
+        "query": "DDR5 32GB kit",
+        "location": "Vega",
+        "ad_id": 21290150,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21101928,
+      "title": "Crucial DDR5 Pro RAM-minne 32GB (2x16GB) 6400MT/s vit",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21101928",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 4200,
+      "currency": "SEK",
+      "location": "Södertälje",
+      "condition": "",
+      "query": "DDR5 32GB kit",
+      "raw_metadata": {
+        "query": "DDR5 32GB kit",
+        "location": "Södertälje",
+        "ad_id": 21101928,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22225287,
+      "title": "Corsair Dominator DDR5 64GB (4x16) 5600 CL36 AMD EXPO",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22225287",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 6500,
+      "currency": "SEK",
+      "location": "Ödåkra",
+      "condition": "",
+      "query": "DDR5 32GB kit",
+      "raw_metadata": {
+        "query": "DDR5 32GB kit",
+        "location": "Ödåkra",
+        "ad_id": 22225287,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 18582605,
+      "title": "Nybyggd Kraftfull Gamingdator–RTX 5070 OC|i5-14600K DDR5 32 GB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/18582605",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 18000,
+      "currency": "SEK",
+      "location": "Arlöv",
+      "condition": "",
+      "query": "DDR5 32GB kit",
+      "raw_metadata": {
+        "query": "DDR5 32GB kit",
+        "location": "Arlöv",
+        "ad_id": 18582605,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20456347,
+      "title": "RAM-minne",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20456347",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 3300,
+      "currency": "SEK",
+      "location": "Segersta",
+      "condition": "",
+      "query": "DDR5 32GB kit",
+      "raw_metadata": {
+        "query": "DDR5 32GB kit",
+        "location": "Segersta",
+        "ad_id": 20456347,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22593222,
+      "title": "Corsair Vengeance LPX 64GB (2x32GB) DDR4 3200MHz – Nyskick!",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22593222",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 3390,
+      "currency": "SEK",
+      "location": "Malmö",
+      "condition": "",
+      "query": "DDR4 64GB kit",
+      "raw_metadata": {
+        "query": "DDR4 64GB kit",
+        "location": "Malmö",
+        "ad_id": 22593222,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22543539,
+      "title": "Kingston Fury DDR4 RAM-minne 64gb (2x32gb) 5600mt/s SODIMM",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22543539",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 2500,
+      "currency": "SEK",
+      "location": "Göteborg",
+      "condition": "",
+      "query": "DDR4 64GB kit",
+      "raw_metadata": {
+        "query": "DDR4 64GB kit",
+        "location": "Göteborg",
+        "ad_id": 22543539,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 19153057,
+      "title": "Apple MacBook Pro 16 tum,  2,4Ghz i9, 64GB, 4TB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/19153057",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 25000,
+      "currency": "SEK",
+      "location": "Saltsjö-Boo",
+      "condition": "",
+      "query": "DDR4 64GB kit",
+      "raw_metadata": {
+        "query": "DDR4 64GB kit",
+        "location": "Saltsjö-Boo",
+        "ad_id": 19153057,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21973338,
+      "title": "Fullmatad Macbook pro 16 tum.",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21973338",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 9000,
+      "currency": "SEK",
+      "location": "Sundbyberg",
+      "condition": "",
+      "query": "DDR4 64GB kit",
+      "raw_metadata": {
+        "query": "DDR4 64GB kit",
+        "location": "Sundbyberg",
+        "ad_id": 21973338,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22585421,
+      "title": "Lexar THOR DDR4 RAM 32GB kit 2x16GB 3 200 MHz",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22585421",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 1800,
+      "currency": "SEK",
+      "location": "Eslöv",
+      "condition": "",
+      "query": "DDR4 32GB kit",
+      "raw_metadata": {
+        "query": "DDR4 32GB kit",
+        "location": "Eslöv",
+        "ad_id": 22585421,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22620753,
+      "title": "Corsair Vengeance LED 32GB (2x16GB) DDR4 2666MHz",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22620753",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 1200,
+      "currency": "SEK",
+      "location": "Norrsundet",
+      "condition": "",
+      "query": "DDR4 32GB kit",
+      "raw_metadata": {
+        "query": "DDR4 32GB kit",
+        "location": "Norrsundet",
+        "ad_id": 22620753,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22076581,
+      "title": "Kingston Fury Beast 32GB DDR4 - med Garanti",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22076581",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 2000,
+      "currency": "SEK",
+      "location": "Rydsgård",
+      "condition": "",
+      "query": "DDR4 32GB kit",
+      "raw_metadata": {
+        "query": "DDR4 32GB kit",
+        "location": "Rydsgård",
+        "ad_id": 22076581,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21107477,
+      "title": "32GB (2x16GB) ADATA XPG SPECTRIX D41 3200MHz DDR4 RGB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21107477",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 1999,
+      "currency": "SEK",
+      "location": "Strömstad",
+      "condition": "",
+      "query": "DDR4 32GB kit",
+      "raw_metadata": {
+        "query": "DDR4 32GB kit",
+        "location": "Strömstad",
+        "ad_id": 21107477,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22593222,
+      "title": "Corsair Vengeance LPX 64GB (2x32GB) DDR4 3200MHz – Nyskick!",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22593222",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 3390,
+      "currency": "SEK",
+      "location": "Malmö",
+      "condition": "",
+      "query": "DDR4 32GB kit",
+      "raw_metadata": {
+        "query": "DDR4 32GB kit",
+        "location": "Malmö",
+        "ad_id": 22593222,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22362619,
+      "title": "OKdo Radxa 4C+ Enkortsdator med DDR4 4GB RAM",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22362619",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 800,
+      "currency": "SEK",
+      "location": "Uppsala",
+      "condition": "",
+      "query": "DDR4 32GB kit",
+      "raw_metadata": {
+        "query": "DDR4 32GB kit",
+        "location": "Uppsala",
+        "ad_id": 22362619,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22198244,
+      "title": "Corsair Vengeance RGB Pro 32 GB (2 x 16 GB) DDR4-3600 CL18",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22198244",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 2000,
+      "currency": "SEK",
+      "location": "Södertälje",
+      "condition": "",
+      "query": "DDR4 32GB kit",
+      "raw_metadata": {
+        "query": "DDR4 32GB kit",
+        "location": "Södertälje",
+        "ad_id": 22198244,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21790748,
+      "title": "HyperX Fury DDR4 3200MHz Ram Minne",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21790748",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 900,
+      "currency": "SEK",
+      "location": "Vendelsö",
+      "condition": "",
+      "query": "DDR4 32GB kit",
+      "raw_metadata": {
+        "query": "DDR4 32GB kit",
+        "location": "Vendelsö",
+        "ad_id": 21790748,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21529878,
+      "title": "Samsung DDR4 SODIMM RAM 2x16GB 2666MHz – Oanvänd",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21529878",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 3200,
+      "currency": "SEK",
+      "location": "Farsta",
+      "condition": "",
+      "query": "DDR4 32GB kit",
+      "raw_metadata": {
+        "query": "DDR4 32GB kit",
+        "location": "Farsta",
+        "ad_id": 21529878,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22596018,
+      "title": "DDR4 Server Minnen ECC RDIMM 8GB 16GB 32GB 64GB Micron Samsung SK Hynix",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22596018",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 499,
+      "currency": "SEK",
+      "location": "Bunkeflostrand",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bunkeflostrand",
+        "ad_id": 22596018,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 548774,
+      "title": "Dell Precision T5810 Intel Xeon / 64GB DDR4 ECC",
+      "url": "https://www.blocket.se/recommerce/forsale/item/548774",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 1495,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 548774,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22366457,
+      "title": "64gb (2*32gb) DDR4 ECC RAM-minne DDR4 2Rx8 PC4-2133P",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22366457",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 2000,
+      "currency": "SEK",
+      "location": "Johanneshov",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Johanneshov",
+        "ad_id": 22366457,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22359141,
+      "title": "Samsung ecc ddr4 ram (4*16gb=64 GB)",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22359141",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 1600,
+      "currency": "SEK",
+      "location": "Johanneshov",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Johanneshov",
+        "ad_id": 22359141,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22032562,
+      "title": "Kingston Fury Beast DDR4 64GB (2x32GB) 3200MT/s CL16-20-20 1.35V XMP. Topp skick",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22032562",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 3990,
+      "currency": "SEK",
+      "location": "Västra Frölunda",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Västra Frölunda",
+        "ad_id": 22032562,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 549331,
+      "title": "Dell Precision 5820 18-Core Xeon 64GB 2TB SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/549331",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 11495,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 549331,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22577589,
+      "title": "iMac Pro 27\" 5K | 8-Core Xeon | 64GB RAM | 1TB SSD | Vega 64 16GB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22577589",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 15000,
+      "currency": "SEK",
+      "location": "Dalstorp",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Dalstorp",
+        "ad_id": 22577589,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22195118,
+      "title": "HP Z4 G4 Workstation – Xeon W-2225 | 64GB | 512GB | RTX 4000",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22195118",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 9990,
+      "currency": "SEK",
+      "location": "Stockholm",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Stockholm",
+        "ad_id": 22195118,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 18017622,
+      "title": "Dell Precision Rack 3930 Core i9, 2TB NVMe & 64GB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/18017622",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 17495,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 18017622,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21509785,
+      "title": "Corsair DDR4-3200MHz 32Gb OBS LÄS NOGA!",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21509785",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 2800,
+      "currency": "SEK",
+      "location": "Halmstad",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Halmstad",
+        "ad_id": 21509785,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 18703296,
+      "title": "Gaming dator med GeForce RTX 3070 / 2TB SSD / Win 11 Pro",
+      "url": "https://www.blocket.se/recommerce/forsale/item/18703296",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 8995,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 18703296,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 552335,
+      "title": "Dell Precision 5820 18-Core Xeon / 3TB SSD NVMe",
+      "url": "https://www.blocket.se/recommerce/forsale/item/552335",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 12995,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 552335,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 18330162,
+      "title": "Gaming dator med RTX 2070 / 2TB SSD / Win 11 Pro",
+      "url": "https://www.blocket.se/recommerce/forsale/item/18330162",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 6995,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 18330162,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22573472,
+      "title": "Compact Workstation: E5-2673 V4, 20C/40T, 128GB RAM, 500GB SSD, GTX 1060",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22573472",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 7100,
+      "currency": "SEK",
+      "location": "Saltsjöbaden",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Saltsjöbaden",
+        "ad_id": 22573472,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 638188,
+      "title": "Gaming dator med RTX 2070S / 3.5TB SSD / Win 11",
+      "url": "https://www.blocket.se/recommerce/forsale/item/638188",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 9495,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 638188,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 589009,
+      "title": "Gaming dator med GeForce GTX 1070 / 2TB SSD / Win 11 Pro",
+      "url": "https://www.blocket.se/recommerce/forsale/item/589009",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 5995,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 589009,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 594523,
+      "title": "Gaming dator med RTX 2070S / 4.5TB SSD / Win 11",
+      "url": "https://www.blocket.se/recommerce/forsale/item/594523",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 10495,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 594523,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 593365,
+      "title": "Gaming dator med GeForce RTX 2070S / 2TB SSD / Win 11",
+      "url": "https://www.blocket.se/recommerce/forsale/item/593365",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 7995,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 593365,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 548770,
+      "title": "Dell Precision 5820 RTX 2080 Super, 2TB SSD & Win 11 Pro",
+      "url": "https://www.blocket.se/recommerce/forsale/item/548770",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 11495,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 548770,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 17731651,
+      "title": "Dell Precision 5820 10-Core / RTX 3080 / Win 11 Pro",
+      "url": "https://www.blocket.se/recommerce/forsale/item/17731651",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 14495,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 17731651,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 431249,
+      "title": "Gaming dator med GeForce GTX 1060 6GB / 1TB SSD / Win 11 Pro",
+      "url": "https://www.blocket.se/recommerce/forsale/item/431249",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 3495,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 431249,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 16683098,
+      "title": "Gaming dator med GTX 1080 / 512GB SSD / Win 11",
+      "url": "https://www.blocket.se/recommerce/forsale/item/16683098",
+      "source": "blocket",
+      "category": "ram-upgrades",
+      "price": 4995,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "ECC DDR4 64GB",
+      "raw_metadata": {
+        "query": "ECC DDR4 64GB",
+        "location": "Bromma",
+        "ad_id": 16683098,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 13532346,
+      "title": "Apple Mac mini med M1-chip / 16GB RAM / 1TB SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/13532346",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 6495,
+      "currency": "SEK",
+      "location": "Bromma",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Bromma",
+        "ad_id": 13532346,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22611881,
+      "title": "Apple Mac Mini M1 stationär dator",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22611881",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 4500,
+      "currency": "SEK",
+      "location": "Bagarmossen",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Bagarmossen",
+        "ad_id": 22611881,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22489560,
+      "title": "Apple Mac mini M1 8 GB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22489560",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 7500,
+      "currency": "SEK",
+      "location": "Stockholm",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Stockholm",
+        "ad_id": 22489560,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22440525,
+      "title": "Apple Mac Mini M1 med tangentbord och mus",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22440525",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 4000,
+      "currency": "SEK",
+      "location": "Karlstad",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Karlstad",
+        "ad_id": 22440525,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22139534,
+      "title": "Apple Mac Mini M1 - 2020",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22139534",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 5000,
+      "currency": "SEK",
+      "location": "Höganäs",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Höganäs",
+        "ad_id": 22139534,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21964080,
+      "title": "Apple Mac Mini M1",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21964080",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 5200,
+      "currency": "SEK",
+      "location": "Vetlanda",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Vetlanda",
+        "ad_id": 21964080,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20283147,
+      "title": "Apple Mac mini, M1, 2020 stationär dator 16 GB RAM 256 GB SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20283147",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 5300,
+      "currency": "SEK",
+      "location": "Vallentuna",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Vallentuna",
+        "ad_id": 20283147,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21503179,
+      "title": "Apple Mac mini 2020 – 8 GB RAM / 512 GB SSD – M1",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21503179",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 5500,
+      "currency": "SEK",
+      "location": "Dalby",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Dalby",
+        "ad_id": 21503179,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21187802,
+      "title": "Mac mini M1 (2020) – 8GB RAM / 512GB SSD – mycket fint skick",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21187802",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 5200,
+      "currency": "SEK",
+      "location": "Slöinge",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Slöinge",
+        "ad_id": 21187802,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22617115,
+      "title": "Apple Mac mini 2021 inkl hub",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22617115",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 4500,
+      "currency": "SEK",
+      "location": "Eskilstuna",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Eskilstuna",
+        "ad_id": 22617115,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22201907,
+      "title": "Mac mini bytes mot imac m4",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22201907",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 0,
+      "currency": "SEK",
+      "location": "Stockholm",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Stockholm",
+        "ad_id": 22201907,
+        "trade_type": "Bortskänkes"
+      }
+    },
+    {
+      "id": 22125887,
+      "title": "Mac Mini med tangentbord och mus platta",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22125887",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 4800,
+      "currency": "SEK",
+      "location": "Norrköping",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Norrköping",
+        "ad_id": 22125887,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21743285,
+      "title": "Satechi Compact Aluminium Keyboard med Bluetooth - För Mac och MacBook",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21743285",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 500,
+      "currency": "SEK",
+      "location": "Kista",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Kista",
+        "ad_id": 21743285,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21875107,
+      "title": "Docka till Macmini, senare mindre modell (M1 osv)",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21875107",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 250,
+      "currency": "SEK",
+      "location": "Uppsala",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Uppsala",
+        "ad_id": 21875107,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20254673,
+      "title": "Apple Led Cinema Display 27”",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20254673",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 2000,
+      "currency": "SEK",
+      "location": "Borlänge",
+      "condition": "",
+      "query": "Mac Mini M1",
+      "raw_metadata": {
+        "query": "Mac Mini M1",
+        "location": "Borlänge",
+        "ad_id": 20254673,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22512215,
+      "title": "Apple mac mini m2 512gb 8gb",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22512215",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 5500,
+      "currency": "SEK",
+      "location": "Göteborg",
+      "condition": "",
+      "query": "Mac Mini M2",
+      "raw_metadata": {
+        "query": "Mac Mini M2",
+        "location": "Göteborg",
+        "ad_id": 22512215,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22460395,
+      "title": "Apple Mac Mini M2 med Magic Mouse och Keyboard",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22460395",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 6500,
+      "currency": "SEK",
+      "location": "Ronneby",
+      "condition": "",
+      "query": "Mac Mini M2",
+      "raw_metadata": {
+        "query": "Mac Mini M2",
+        "location": "Ronneby",
+        "ad_id": 22460395,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22420225,
+      "title": "Apple Mac Mini M2",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22420225",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 4500,
+      "currency": "SEK",
+      "location": "Järfälla",
+      "condition": "",
+      "query": "Mac Mini M2",
+      "raw_metadata": {
+        "query": "Mac Mini M2",
+        "location": "Järfälla",
+        "ad_id": 22420225,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 18886593,
+      "title": "Apple Mac Mini M2 Pro 16GB/512 GB SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/18886593",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 9000,
+      "currency": "SEK",
+      "location": "Växjö",
+      "condition": "",
+      "query": "Mac Mini M2",
+      "raw_metadata": {
+        "query": "Mac Mini M2",
+        "location": "Växjö",
+        "ad_id": 18886593,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21940384,
+      "title": "Bytes Macbook Pro M2 Pro 14\" 16GB RAM 512GB SSD mot Mac mini M4 Pro",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21940384",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 100,
+      "currency": "SEK",
+      "location": "Åkersberga",
+      "condition": "",
+      "query": "Mac Mini M2",
+      "raw_metadata": {
+        "query": "Mac Mini M2",
+        "location": "Åkersberga",
+        "ad_id": 21940384,
+        "trade_type": "Köpes"
+      }
+    },
+    {
+      "id": 21143144,
+      "title": "Apple Mac mini stationär dator M2 8 GB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21143144",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 5000,
+      "currency": "SEK",
+      "location": "Växjö",
+      "condition": "",
+      "query": "Mac Mini M2",
+      "raw_metadata": {
+        "query": "Mac Mini M2",
+        "location": "Växjö",
+        "ad_id": 21143144,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21271222,
+      "title": "Mac Mini M2 - 8gb - 512gb SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21271222",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 6000,
+      "currency": "SEK",
+      "location": "Linköping",
+      "condition": "",
+      "query": "Mac Mini M2",
+      "raw_metadata": {
+        "query": "Mac Mini M2",
+        "location": "Linköping",
+        "ad_id": 21271222,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22598394,
+      "title": "SSD Diskar för Apple MacBook Mac Mini iMac 128GB 256GB Original",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22598394",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 289,
+      "currency": "SEK",
+      "location": "Stockholm",
+      "condition": "",
+      "query": "Mac Mini M2",
+      "raw_metadata": {
+        "query": "Mac Mini M2",
+        "location": "Stockholm",
+        "ad_id": 22598394,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22355230,
+      "title": "iPad Air m2 surfplatta 128 GB 11 tum",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22355230",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 5700,
+      "currency": "SEK",
+      "location": "Johanneshov",
+      "condition": "",
+      "query": "Mac Mini M2",
+      "raw_metadata": {
+        "query": "Mac Mini M2",
+        "location": "Johanneshov",
+        "ad_id": 22355230,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21743285,
+      "title": "Satechi Compact Aluminium Keyboard med Bluetooth - För Mac och MacBook",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21743285",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 500,
+      "currency": "SEK",
+      "location": "Kista",
+      "condition": "",
+      "query": "Mac Mini M2",
+      "raw_metadata": {
+        "query": "Mac Mini M2",
+        "location": "Kista",
+        "ad_id": 21743285,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20567229,
+      "title": "Satechi Tangentbord Slim X3",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20567229",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 600,
+      "currency": "SEK",
+      "location": "Vällingby",
+      "condition": "",
+      "query": "Mac Mini M2",
+      "raw_metadata": {
+        "query": "Mac Mini M2",
+        "location": "Vällingby",
+        "ad_id": 20567229,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21398341,
+      "title": "MacMini 2023 + Satechi Studio Dockingstation",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21398341",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 6000,
+      "currency": "SEK",
+      "location": "Täby",
+      "condition": "",
+      "query": "Mac Mini M2",
+      "raw_metadata": {
+        "query": "Mac Mini M2",
+        "location": "Täby",
+        "ad_id": 21398341,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 18886593,
+      "title": "Apple Mac Mini M2 Pro 16GB/512 GB SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/18886593",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 9000,
+      "currency": "SEK",
+      "location": "Växjö",
+      "condition": "",
+      "query": "Mac Mini M2 Pro",
+      "raw_metadata": {
+        "query": "Mac Mini M2 Pro",
+        "location": "Växjö",
+        "ad_id": 18886593,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21940384,
+      "title": "Bytes Macbook Pro M2 Pro 14\" 16GB RAM 512GB SSD mot Mac mini M4 Pro",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21940384",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 100,
+      "currency": "SEK",
+      "location": "Åkersberga",
+      "condition": "",
+      "query": "Mac Mini M2 Pro",
+      "raw_metadata": {
+        "query": "Mac Mini M2 Pro",
+        "location": "Åkersberga",
+        "ad_id": 21940384,
+        "trade_type": "Köpes"
+      }
+    },
+    {
+      "id": 22598394,
+      "title": "SSD Diskar för Apple MacBook Mac Mini iMac 128GB 256GB Original",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22598394",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 289,
+      "currency": "SEK",
+      "location": "Stockholm",
+      "condition": "",
+      "query": "Mac Mini M2 Pro",
+      "raw_metadata": {
+        "query": "Mac Mini M2 Pro",
+        "location": "Stockholm",
+        "ad_id": 22598394,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21743285,
+      "title": "Satechi Compact Aluminium Keyboard med Bluetooth - För Mac och MacBook",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21743285",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 500,
+      "currency": "SEK",
+      "location": "Kista",
+      "condition": "",
+      "query": "Mac Mini M2 Pro",
+      "raw_metadata": {
+        "query": "Mac Mini M2 Pro",
+        "location": "Kista",
+        "ad_id": 21743285,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 20567229,
+      "title": "Satechi Tangentbord Slim X3",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20567229",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 600,
+      "currency": "SEK",
+      "location": "Vällingby",
+      "condition": "",
+      "query": "Mac Mini M2 Pro",
+      "raw_metadata": {
+        "query": "Mac Mini M2 Pro",
+        "location": "Vällingby",
+        "ad_id": 20567229,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22703100,
+      "title": "Smidig liten produktion/gaming dator bytes mot Mac Mini M4",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22703100",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 13000,
+      "currency": "SEK",
+      "location": "Göteborg",
+      "condition": "",
+      "query": "Mac Mini M4",
+      "raw_metadata": {
+        "query": "Mac Mini M4",
+        "location": "Göteborg",
+        "ad_id": 22703100,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22695331,
+      "title": "Mac Mini M4 (2024) 16GB RAM 256GB SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22695331",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 5450,
+      "currency": "SEK",
+      "location": "Sollentuna",
+      "condition": "",
+      "query": "Mac Mini M4",
+      "raw_metadata": {
+        "query": "Mac Mini M4",
+        "location": "Sollentuna",
+        "ad_id": 22695331,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22607292,
+      "title": "Apple Mac mini M4 Pro 24GB 512GB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22607292",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 21000,
+      "currency": "SEK",
+      "location": "Stockholm",
+      "condition": "",
+      "query": "Mac Mini M4",
+      "raw_metadata": {
+        "query": "Mac Mini M4",
+        "location": "Stockholm",
+        "ad_id": 22607292,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22201907,
+      "title": "Mac mini bytes mot imac m4",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22201907",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 0,
+      "currency": "SEK",
+      "location": "Stockholm",
+      "condition": "",
+      "query": "Mac Mini M4",
+      "raw_metadata": {
+        "query": "Mac Mini M4",
+        "location": "Stockholm",
+        "ad_id": 22201907,
+        "trade_type": "Bortskänkes"
+      }
+    },
+    {
+      "id": 21940384,
+      "title": "Bytes Macbook Pro M2 Pro 14\" 16GB RAM 512GB SSD mot Mac mini M4 Pro",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21940384",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 100,
+      "currency": "SEK",
+      "location": "Åkersberga",
+      "condition": "",
+      "query": "Mac Mini M4",
+      "raw_metadata": {
+        "query": "Mac Mini M4",
+        "location": "Åkersberga",
+        "ad_id": 21940384,
+        "trade_type": "Köpes"
+      }
+    },
+    {
+      "id": 22617213,
+      "title": "Apogee element 24",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22617213",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 1995,
+      "currency": "SEK",
+      "location": "Göteborg",
+      "condition": "",
+      "query": "Mac Mini M4",
+      "raw_metadata": {
+        "query": "Mac Mini M4",
+        "location": "Göteborg",
+        "ad_id": 22617213,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21875107,
+      "title": "Docka till Macmini, senare mindre modell (M1 osv)",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21875107",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 250,
+      "currency": "SEK",
+      "location": "Uppsala",
+      "condition": "",
+      "query": "Mac Mini M4",
+      "raw_metadata": {
+        "query": "Mac Mini M4",
+        "location": "Uppsala",
+        "ad_id": 21875107,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22355230,
+      "title": "iPad Air m2 surfplatta 128 GB 11 tum",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22355230",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 5700,
+      "currency": "SEK",
+      "location": "Johanneshov",
+      "condition": "",
+      "query": "Mac Mini M4",
+      "raw_metadata": {
+        "query": "Mac Mini M4",
+        "location": "Johanneshov",
+        "ad_id": 22355230,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22076596,
+      "title": "Apple Thunderbolt Display bildskärm 27 tum silver",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22076596",
+      "source": "blocket",
+      "category": "mac-mini",
+      "price": 3000,
+      "currency": "SEK",
+      "location": "Ås",
+      "condition": "",
+      "query": "Mac Mini M4",
+      "raw_metadata": {
+        "query": "Mac Mini M4",
+        "location": "Ås",
+        "ad_id": 22076596,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22482886,
+      "title": "Apple Mac Studio M1 Max 64GB RAM 32-core GPU 2TB SSD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22482886",
+      "source": "blocket",
+      "category": "mac-studio",
+      "price": 24000,
+      "currency": "SEK",
+      "location": "Helsingborg",
+      "condition": "",
+      "query": "Mac Studio M1 Max",
+      "raw_metadata": {
+        "query": "Mac Studio M1 Max",
+        "location": "Helsingborg",
+        "ad_id": 22482886,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 21855094,
+      "title": "Mac Studio M1 Max – 32 GB RAM / 512 GB SSD – Kraftfull Mac",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21855094",
+      "source": "blocket",
+      "category": "mac-studio",
+      "price": 13500,
+      "currency": "SEK",
+      "location": "Bromölla",
+      "condition": "",
+      "query": "Mac Studio M1 Max",
+      "raw_metadata": {
+        "query": "Mac Studio M1 Max",
+        "location": "Bromölla",
+        "ad_id": 21855094,
+        "trade_type": "Säljes"
+      }
+    },
+    {
+      "id": 22637698,
+      "title": "Apple Mac Studio M2 Max – 32 GB RAM – mycket fint skick",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22637698",
+      "source": "blocket",
+      "category": "mac-studio",
+      "price": 16000,
+      "currency": "SEK",
+      "location": "Täby",
+      "condition": "",
+      "query": "Mac Studio M2 Max",
+      "raw_metadata": {
+        "query": "Mac Studio M2 Max",
+        "location": "Täby",
+        "ad_id": 22637698,
+        "trade_type": "Säljes"
+      }
+    }
+  ]
+}
