@@ -13,7 +13,7 @@ This repo is open source, including the Hermes prompts, skills, and bundled brow
 Recommended process:
 
 1. Clone this repo with submodules.
-2. Point Hermes or your AI coding tool at the full source tree (Hermes, Cursor, Claude Code, Codex, etc.).
+2. Point Hermes or your AI coding tool at the full source tree (Hermes, Claude Code, Codex, etc.).
 3. Ask it:
 
 ```text
@@ -22,7 +22,7 @@ Analyze this repository for security vulnerabilities, malware, spyware, data exf
 
 4. Read the report and review flagged files yourself before use.
 
-You should do this for every extension/tool you install. Most are closed source and cannot be fully audited; this one can.
+You should do this for every extension/tool you install.
 
 ## Install native Hermes skills
 
