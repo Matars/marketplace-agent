@@ -56,13 +56,13 @@ Use this repo and workspace:
 - repo: ./
 - workspace: workspaces/default
 
-New goal:
-<describe what you want to find now>
+New search brief:
+<describe what you want to find now, what counts as a good result, and any deal-breakers>
 
 Do this:
 1. Read prompts/hermes-installation-guide.md and hermes/skills/marketplace-agent-workspace.md.
 2. Update marketplace.toml in the workspace only.
-3. Keep existing useful vendor config unless it conflicts with the new goal.
+3. Keep existing useful vendor config unless it conflicts with the new search brief.
 4. Validate the workspace.
 5. Run the find workflow and inspect output/latest.json.
 6. Summarize what changed and what results were found.

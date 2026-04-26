@@ -1,7 +1,7 @@
 ---
 name: marketplace-agent-workspace
 category: marketplace-agent
-description: Configure marketplace-agent user workspaces from natural-language shopping goals. Install/update the CLI, create workspace config, translate intent into categories/queries, run find, and inspect output.
+description: Configure marketplace-agent user workspaces from natural-language search/selling briefs. Install/update the CLI, create workspace config, translate intent into categories/queries, run find, and inspect output.
 ---
 
 # marketplace-agent workspace
@@ -30,7 +30,7 @@ uv run pytest -q
 
 ## Onboarding first
 
-Do not invent the user's goal or vendors. Ask compact onboarding questions before creating the final config:
+Do not invent what the user wants to find/sell or which vendors to use. Ask compact onboarding questions before creating the final config:
 
 1. Find, sell, or both?
 2. What are they looking for/selling?
@@ -46,14 +46,14 @@ Create a gitignored user workspace inside the engine repo at `workspaces/default
 
 ## Convert user intent to categories
 
-Turn the user's own goal into concrete product/category queries.
+Turn the user's search/selling brief into concrete product/category queries.
 
 Guidelines:
 
 - Prefer concrete product names/models over vague terms.
 - Include important constraints from the user: size, location, compatibility, budget, condition, brand, platform, etc.
 - If the user's request is broad, create multiple focused categories.
-- Do not copy examples into the config unless they match the user's actual goal.
+- Do not copy examples into the config unless they match the user's actual search/selling brief.
 
 Example only:
 
@@ -65,7 +65,7 @@ queries = ["specific product 1", "specific product 2"]
 
 ## Vendors
 
-Use the vendors requested by the user. If the user asks Hermes to choose, pick sensible real providers for the user's country and goal.
+Use the vendors requested by the user. If the user asks Hermes to choose, pick sensible real providers for the user's country and search/selling request.
 
 If a requested vendor plugin does not exist, use marketplace-agent-vendor-builder to create it.
 

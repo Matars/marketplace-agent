@@ -6,7 +6,7 @@ You are setting up marketplace-agent for the user. Follow this guide before impr
 
 Onboard the user, then turn their answers into a working marketplace-agent workspace.
 
-Do not assume the user's marketplace goal, products, vendors, country, schedule, or output preference from this guide. Ask first.
+Do not assume what the user wants to find/sell, products, vendors, country, schedule, or output preference from this guide. Ask first.
 
 ## Repos and folders
 
@@ -60,7 +60,7 @@ After the user answers, summarize the intended config briefly and proceed unless
 
 ## Provider selection
 
-Use the vendors from onboarding. If the user asks Hermes to choose defaults, choose reasonable real marketplaces for the user's country and goal.
+Use the vendors from onboarding. If the user asks Hermes to choose defaults, choose reasonable real marketplaces for the user's country and search/selling request.
 
 Examples only, not defaults:
 
@@ -85,7 +85,7 @@ If a vendor is blocked by login, captcha, anti-bot, or terms-sensitive behavior,
 
 ## Convert user intent into product queries
 
-Convert the user's own goal into concrete categories and queries. Prefer specific model names, brands, constraints, sizes, locations, or compatibility terms over vague keywords.
+Convert the user's search/selling brief into concrete categories and queries. Prefer specific model names, brands, constraints, sizes, locations, compatibility terms, and deal-breakers over vague keywords.
 
 Template shape:
 
@@ -99,7 +99,7 @@ queries = [
 ]
 ```
 
-Fill this from the user's actual goal. Do not insert any default product preferences.
+Fill this from the user's actual search/selling brief. Do not insert any default product preferences.
 
 ## Workspace creation and config
 
