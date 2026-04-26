@@ -47,6 +47,26 @@ Browser-harness is included as a full upstream submodule:
 third_party/browser-harness/
 ```
 
+## Security: audit with AI before installing
+
+Before running or installing this project, audit it.
+
+This repo is open source, including the Hermes prompts, skills, and bundled browser-harness submodule, so you can inspect everything before trusting it.
+
+Recommended process:
+
+1. Clone this repo with submodules.
+2. Point your AI coding tool at the full source tree (Cursor, Claude Code, Codex, etc.).
+3. Ask it:
+
+```text
+Analyze this repository for security vulnerabilities, malware, spyware, data exfiltration risks, prompt/skill abuse paths, and any suspicious behavior. Review all code, prompts, skills, scripts, and submodules.
+```
+
+4. Read the report and review flagged files yourself before use.
+
+You should do this for every extension/tool you install. Most are closed source and cannot be fully audited; this one can.
+
 ## Current status
 
 Prototype.
