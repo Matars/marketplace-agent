@@ -4,7 +4,7 @@ Marketplace automation toolkit for finding marketplace deals and drafting sell l
 
 The intended UX is simple: copy the prompt below into Hermes. Hermes handles setup, asks you onboarding questions, creates your workspace, configures vendors/products, and runs the first workflow.
 
-## Copy this into Hermes
+## First-time setup prompt
 
 ```text
 Set up marketplace-agent for me.
@@ -23,7 +23,90 @@ Do this:
 11. Show me where the output JSON or draft JSON is and summarize what worked.
 ```
 
-That is the user-facing setup. Everything else in this repo is for Hermes or contributors.
+That is the first-time setup prompt. After marketplace-agent is already installed/configured, use the day-to-day prompts below.
+
+## Day-to-day prompts
+
+Copy one of these into Hermes when you already have a local clone and workspace.
+
+### Find new deals
+
+```text
+Run marketplace-agent for me.
+
+Use this repo and workspace:
+- repo: ./
+- workspace: workspaces/default
+
+Do this:
+1. Read prompts/hermes-installation-guide.md only for operating rules; do not redo first-time onboarding unless required config is missing.
+2. Read the relevant repo skills under hermes/skills/.
+3. Run validation for the workspace.
+4. Run the find workflow.
+5. Inspect workspaces/default/output/latest.json.
+6. Summarize the best results, provider failures, and exact next command I should run.
+```
+
+### Change what I am looking for
+
+```text
+Update my marketplace-agent search.
+
+Use this repo and workspace:
+- repo: ./
+- workspace: workspaces/default
+
+New goal:
+<describe what you want to find now>
+
+Do this:
+1. Read prompts/hermes-installation-guide.md and hermes/skills/marketplace-agent-workspace.md.
+2. Update marketplace.toml in the workspace only.
+3. Keep existing useful vendor config unless it conflicts with the new goal.
+4. Validate the workspace.
+5. Run the find workflow and inspect output/latest.json.
+6. Summarize what changed and what results were found.
+```
+
+### Add or repair a marketplace/vendor
+
+```text
+Add or repair a marketplace-agent vendor.
+
+Use this repo and workspace:
+- repo: ./
+- workspace: workspaces/default
+
+Vendor/site:
+<marketplace name or URL>
+
+Do this:
+1. Read hermes/skills/marketplace-agent-vendor-builder.md and hermes/skills/marketplace-agent-browser-harness.md.
+2. Use third_party/browser-harness for discovery if needed.
+3. Implement or repair the provider plugin.
+4. Keep personal config/output inside the gitignored workspace.
+5. Run tests or validation for the changed provider.
+6. Run marketplace-agent against the workspace and summarize what works.
+```
+
+### Draft a sell listing
+
+```text
+Create a sell-listing draft with marketplace-agent.
+
+Use this repo and workspace:
+- repo: ./
+- workspace: workspaces/default
+
+Item to sell:
+<describe the item, condition, price idea, photos/info available>
+
+Do this:
+1. Read hermes/skills/marketplace-agent-sell-draft.md.
+2. Create draft JSON only; do not post, message buyers, or bypass login/captcha.
+3. Put outputs inside the gitignored workspace.
+4. Show me the draft path and summarize what still needs my approval.
+```
 
 ## What Hermes should read
 
