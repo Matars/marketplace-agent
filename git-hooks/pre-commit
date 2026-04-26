@@ -1,6 +1,0 @@
-#!/bin/sh
-set -eu
-
-# Auto-bump the patch version in pyproject.toml and stage it so every commit
-# carries a pyproject version bump. Releases use pyproject.toml only — no tags.
-python3 scripts/bump_pyproject_version.py

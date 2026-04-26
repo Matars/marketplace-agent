@@ -51,18 +51,6 @@ hermes skills update
 
 Do not manually copy these skills into `~/.hermes/skills`; installing from the GitHub repo preserves update metadata.
 
-## Contributor version bumps
-
-This repo uses `pyproject.toml` version bumps only — no git tags.
-
-Install the local commit hook once after cloning:
-
-```bash
-scripts/install-git-hooks.sh
-```
-
-After that, every commit automatically bumps the patch version in `pyproject.toml` and stages it into the same commit.
-
 ### What about browser-harness?
 
 You do not need to install a separate third-party Hermes skill for normal marketplace-agent use.
