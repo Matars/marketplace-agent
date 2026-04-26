@@ -2,7 +2,7 @@
 
 Marketplace automation toolkit for finding marketplace deals and drafting sell listings.
 
-The intended UX is simple: audit the repo, install the native Hermes skills once, then use `/skill marketplace-agent-...` for setup and day-to-day workflows.
+The intended UX is simple: audit the repo, install the native Hermes skills once, then use `/marketplace-agent-...` for setup and day-to-day workflows.
 
 ## Security: audit with AI before installing
 
@@ -26,7 +26,7 @@ You should do this for every extension/tool you install.
 
 ## Install native Hermes skills
 
-The repo includes native Hermes skills under `skills/`. Install them once so they are available through `/skill ...` in day-to-day Hermes sessions.
+The repo includes native Hermes skills under `skills/`. Install them once so they are available through `/<skill-name>` in day-to-day Hermes sessions.
 
 ```bash
 hermes skills tap add Matars/marketplace-agent
@@ -72,7 +72,7 @@ Only install a separate upstream browser-harness skill if you want to use browse
 Copy this into Hermes. Hermes will ask the setup questions it needs; you do not need to edit the prompt first.
 
 ```text
-/skill marketplace-agent-setup
+/marketplace-agent-setup
 
 Set up marketplace-agent for me.
 ```
@@ -86,7 +86,7 @@ Use these after marketplace-agent is already installed/configured. Copy them as-
 ### Find new deals
 
 ```text
-/skill marketplace-agent-find-deals
+/marketplace-agent-find-deals
 
 Run the normal find workflow and summarize the best results.
 ```
@@ -94,7 +94,7 @@ Run the normal find workflow and summarize the best results.
 ### Change what I am looking for
 
 ```text
-/skill marketplace-agent-update-search
+/marketplace-agent-update-search
 
 Update what marketplace-agent searches for.
 ```
@@ -102,7 +102,7 @@ Update what marketplace-agent searches for.
 ### Add or repair a marketplace/vendor
 
 ```text
-/skill marketplace-agent-vendor-repair
+/marketplace-agent-vendor-repair
 
 Add or repair a marketplace/vendor.
 ```
@@ -110,7 +110,7 @@ Add or repair a marketplace/vendor.
 ### Draft a sell listing
 
 ```text
-/skill marketplace-agent-sell-draft
+/marketplace-agent-sell-draft
 
 Create a sell-listing draft.
 ```
