@@ -10,10 +10,10 @@ Use this skill when a user wants Hermes to set up or configure marketplace-agent
 
 ## Core rule
 
-Keep the engine package and the user workspace separate.
+Keep the engine package source and the user workspace data separate by path and gitignore.
 
 - Engine: local clone of `https://github.com/Matars/marketplace-agent`
-- Workspace: user config/data folder outside the engine repo
+- Workspace: gitignored user config/data folder inside the engine repo, defaulting to `workspaces/default`
 
 Do not ask the user to edit the engine repo for personal vendors/products.
 
@@ -36,13 +36,13 @@ Do not invent the user's goal or vendors. Ask compact onboarding questions befor
 2. What are they looking for/selling?
 3. Country/region?
 4. Preferred marketplaces/vendors, or should Hermes choose real providers?
-5. Workspace location, with a safe default outside the engine repo?
+5. Workspace location, with `workspaces/default` as the safe default?
 
 Optional follow-ups: budget, condition, location radius, shipping/pickup, recurring schedule, output destination.
 
 ## Create workspace
 
-Create a user workspace outside the engine repo. If the workspace exists, edit `marketplace.toml` instead of overwriting unless the user explicitly asks.
+Create a gitignored user workspace inside the engine repo at `workspaces/default` unless the user asks for a different location. If the workspace exists, edit `marketplace.toml` instead of overwriting unless the user explicitly asks.
 
 ## Convert user intent to categories
 

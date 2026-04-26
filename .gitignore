@@ -24,8 +24,8 @@ ENV/
 .env.local
 
 # Local user workspaces / runtime project data
-# Normal users should initialize config outside this repo. These ignores keep
-# accidental in-repo test workspaces from creating update conflicts.
+# Normal users can initialize config under /workspaces/default in this repo.
+# Keep those files private and out of git.
 /workspace/
 /workspaces/
 /my-marketplace/

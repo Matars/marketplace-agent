@@ -14,9 +14,9 @@ Use these roles, not hardcoded personal paths:
 
 - engine repo: local clone of `https://github.com/Matars/marketplace-agent`
 - browser-harness: full upstream submodule at `<engine repo>/third_party/browser-harness`
-- user workspace: a separate folder outside the engine repo for personal config/output
+- user workspace: gitignored folder inside the engine repo, defaulting to `<engine repo>/workspaces/default`, for personal config/output
 
-Keep engine/workspace separate. The engine repo is source code. The workspace is personal config/output.
+Keep engine source and workspace data separate by path and gitignore. The engine repo is source code; the workspace is personal config/output and must not be committed.
 
 ## Setup steps before onboarding
 
@@ -45,7 +45,7 @@ Required:
 2. What are you looking for or selling? Describe it naturally.
 3. What country/region should marketplaces target?
 4. Which marketplaces/vendors do you want to use? If unsure, ask whether Hermes should choose sensible real providers for the region.
-5. Where should the workspace live? Offer a safe default outside the engine repo.
+5. Where should the workspace live? Offer `<engine repo>/workspaces/default` as the safe default unless the user asks for a different location.
 
 Optional, ask if relevant:
 
@@ -105,9 +105,9 @@ Fill this from the user's actual goal. Do not insert any default product prefere
 
 After onboarding:
 
-1. Create or update the user workspace outside the engine repo.
+1. Create or update the user workspace at `<engine repo>/workspaces/default` unless the user chose another location.
 2. Configure `marketplace.toml` using real providers only.
-3. Keep personal config and generated output in the workspace, not the engine repo.
+3. Keep personal config and generated output in the gitignored workspace, not in tracked engine paths.
 
 ## Validation
 
@@ -130,4 +130,4 @@ After setup:
 - Do not auto-post listings.
 - Do not message sellers or buyers.
 - Do not bypass captcha/login/anti-bot protections without explicit user approval.
-- Do not put personal config in the engine repo.
+- Do not commit personal config, generated vendors, diagnostics, or output.
