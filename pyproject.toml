@@ -1,6 +1,6 @@
 [project]
 name = "marketplace-agent"
-version = "0.0.3"
+version = "0.0.4"
 description = "Marketplace automation toolkit for finding deals and drafting second-hand listings."
 readme = "README.md"
 requires-python = ">=3.11"

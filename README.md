@@ -31,12 +31,17 @@ The repo includes native Hermes skills under `skills/`. Install them once so the
 ```bash
 hermes skills tap add Matars/marketplace-agent
 hermes skills install Matars/marketplace-agent/skills/marketplace-agent-setup --yes
-hermes skills install Matars/marketplace-agent/skills/marketplace-agent-workspace --yes
-hermes skills install Matars/marketplace-agent/skills/marketplace-agent-find-deals --yes
+hermes skills install Matars/marketplace-agent/skills/marketplace-agent-workspace --yes --force
+hermes skills install Matars/marketplace-agent/skills/marketplace-agent-find-deals --yes --force
 hermes skills install Matars/marketplace-agent/skills/marketplace-agent-update-search --yes
 hermes skills install Matars/marketplace-agent/skills/marketplace-agent-vendor-repair --yes
 hermes skills install Matars/marketplace-agent/skills/marketplace-agent-sell-draft --yes
 ```
+
+Why `--force` for two skills?
+
+`marketplace-agent-workspace` and `marketplace-agent-find-deals` include runnable command examples like `uv run marketplace-agent ...`. Hermes Hub flags those as `supply_chain` CAUTION for community skills and blocks by default. In this repo those commands are intentional and required for normal operation, so `--force` is used to explicitly trust and install them.
+
 
 After that, keep skills updated with:
 
