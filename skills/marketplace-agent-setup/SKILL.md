@@ -28,7 +28,7 @@ Keep user config, generated vendors, diagnostics, and output inside the gitignor
    - `skills/marketplace-agent-workspace/SKILL.md` or `hermes/skills/marketplace-agent-workspace.md`
    - `skills/marketplace-agent-vendor-repair/SKILL.md` or `hermes/skills/marketplace-agent-vendor-builder.md`
    - `skills/marketplace-agent-sell-draft/SKILL.md` or `hermes/skills/marketplace-agent-sell-draft.md`
-4. Ask compact onboarding questions before final config:
+4. Ask compact onboarding questions before final config. Do not require the user to include these in the copied prompt:
    - find, sell, or both?
    - what should be found or sold?
    - what counts as a good result?

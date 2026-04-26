@@ -16,7 +16,7 @@ Use this skill when marketplace-agent is already installed/configured and the us
 - repo path: user-provided path if given; otherwise locate the clone before assuming the current directory is the repo root
 - workspace path: default `workspaces/default` relative to the repo
 
-Do not redo first-time onboarding unless required config is missing.
+Do not redo first-time onboarding unless required config is missing. If the repo/workspace cannot be located, ask one concise question for the missing path instead of guessing.
 
 ## Steps
 

@@ -64,29 +64,25 @@ Only install a separate upstream browser-harness skill if you want to use browse
 
 ## First-time setup
 
-In Hermes, load the setup skill and describe what you want to find or sell:
+Copy this into Hermes. Hermes will ask the setup questions it needs; you do not need to edit the prompt first.
 
 ```text
 /skill marketplace-agent-setup
 
 Set up marketplace-agent for me.
-
-Search/selling brief:
-<what you want to find or sell, what counts as a good result, and any deal-breakers>
 ```
 
 The setup skill clones/updates the repo, initializes `workspaces/default`, configures vendors/searches, validates the workspace, and runs the first workflow.
 
 ## Day-to-day skills
 
-Use these after marketplace-agent is already installed/configured. Replace `<path-to-marketplace-agent>` with the actual clone path if Hermes was not started from the repo root.
+Use these after marketplace-agent is already installed/configured. Copy them as-is. If Hermes needs the repo path, workspace path, vendor name, search brief, or item details, it will ask.
 
 ### Find new deals
 
 ```text
 /skill marketplace-agent-find-deals
 
-Use repo <path-to-marketplace-agent> and workspace workspaces/default.
 Run the normal find workflow and summarize the best results.
 ```
 
@@ -95,10 +91,7 @@ Run the normal find workflow and summarize the best results.
 ```text
 /skill marketplace-agent-update-search
 
-Use repo <path-to-marketplace-agent> and workspace workspaces/default.
-
-New search brief:
-<what you want to find now, what counts as a good result, and any deal-breakers>
+Update what marketplace-agent searches for.
 ```
 
 ### Add or repair a marketplace/vendor
@@ -106,8 +99,7 @@ New search brief:
 ```text
 /skill marketplace-agent-vendor-repair
 
-Use repo <path-to-marketplace-agent> and workspace workspaces/default.
-Vendor/site: <marketplace name or URL>
+Add or repair a marketplace/vendor.
 ```
 
 ### Draft a sell listing
@@ -115,8 +107,7 @@ Vendor/site: <marketplace name or URL>
 ```text
 /skill marketplace-agent-sell-draft
 
-Use repo <path-to-marketplace-agent> and workspace workspaces/default.
-Item to sell: <item, condition, price idea, photos/info available>
+Create a sell-listing draft.
 ```
 
 ## What Hermes should read

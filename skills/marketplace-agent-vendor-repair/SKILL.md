@@ -19,6 +19,8 @@ Use this skill when a marketplace/vendor is missing, broken, returning zero unex
 
 ## First checks
 
+If the vendor/site is missing, ask the user for it instead of requiring them to edit the copied prompt.
+
 1. Locate the repo and workspace. Do not assume Hermes was started from the repo root.
 2. Identify the vendor/site and representative search query.
 3. Check whether the provider should be:

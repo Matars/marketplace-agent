@@ -25,6 +25,8 @@ Do not auto-post listings, message buyers, accept offers, submit forms, or bypas
 
 ## Draft workflow
 
+If item details are missing, ask the user for them instead of requiring them to edit the copied prompt.
+
 1. Locate the repo and workspace. Do not assume Hermes was started from the repo root.
 2. Collect product inputs:
    - item type

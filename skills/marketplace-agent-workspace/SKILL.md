@@ -39,7 +39,7 @@ uv run pytest -q
 
 ## Onboarding/config questions
 
-Do not invent what the user wants to find/sell or which vendors to use. Ask compact questions before creating final config:
+Do not invent what the user wants to find/sell or which vendors to use. Ask compact questions before creating final config; do not require the user to include these details in the copied prompt:
 
 1. Find, sell, or both?
 2. What are they looking for/selling?

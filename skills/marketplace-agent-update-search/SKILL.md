@@ -19,7 +19,7 @@ Use this skill when the user wants to change what marketplace-agent searches for
 
 ## Ask for a search brief if missing
 
-Ask the user for:
+If the new search brief is missing, ask the user for it instead of requiring them to edit the copied prompt. Ask for:
 
 - what they want to find now
 - what counts as a good result
