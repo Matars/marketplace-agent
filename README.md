@@ -2,7 +2,27 @@
 
 Marketplace automation toolkit for finding marketplace deals and drafting sell listings.
 
-The intended UX is simple: install the native Hermes skills once, then use `/skill marketplace-agent-...` for setup and day-to-day workflows.
+The intended UX is simple: audit the repo, install the native Hermes skills once, then use `/skill marketplace-agent-...` for setup and day-to-day workflows.
+
+## Security: audit with AI before installing
+
+Before running or installing this project, audit it.
+
+This repo is open source, including the Hermes prompts, skills, and bundled browser-harness submodule, so you can inspect everything before trusting it.
+
+Recommended process:
+
+1. Clone this repo with submodules.
+2. Point your AI coding tool at the full source tree (Cursor, Claude Code, Codex, etc.).
+3. Ask it:
+
+```text
+Analyze this repository for security vulnerabilities, malware, spyware, data exfiltration risks, prompt/skill abuse paths, and any suspicious behavior. Review all code, prompts, skills, scripts, and submodules.
+```
+
+4. Read the report and review flagged files yourself before use.
+
+You should do this for every extension/tool you install. Most are closed source and cannot be fully audited; this one can.
 
 ## Install native Hermes skills
 
@@ -25,6 +45,22 @@ hermes skills update
 ```
 
 Do not manually copy these skills into `~/.hermes/skills`; installing from the GitHub repo preserves update metadata.
+
+### What about browser-harness?
+
+You do not need to install a separate third-party Hermes skill for normal marketplace-agent use.
+
+`browser-harness` is included as a git submodule at `third_party/browser-harness/`, and the marketplace-agent skills read/use that local submodule when vendor discovery or scraper repair is needed.
+
+The important part is cloning/updating with submodules enabled:
+
+```bash
+git clone --recurse-submodules https://github.com/Matars/marketplace-agent
+# or, in an existing clone:
+git submodule update --init --recursive
+```
+
+Only install a separate upstream browser-harness skill if you want to use browser-harness directly outside marketplace-agent.
 
 ## First-time setup
 
@@ -116,26 +152,6 @@ Browser-harness is included as a full upstream submodule:
 ```text
 third_party/browser-harness/
 ```
-
-## Security: audit with AI before installing
-
-Before running or installing this project, audit it.
-
-This repo is open source, including the Hermes prompts, skills, and bundled browser-harness submodule, so you can inspect everything before trusting it.
-
-Recommended process:
-
-1. Clone this repo with submodules.
-2. Point your AI coding tool at the full source tree (Cursor, Claude Code, Codex, etc.).
-3. Ask it:
-
-```text
-Analyze this repository for security vulnerabilities, malware, spyware, data exfiltration risks, prompt/skill abuse paths, and any suspicious behavior. Review all code, prompts, skills, scripts, and submodules.
-```
-
-4. Read the report and review flagged files yourself before use.
-
-You should do this for every extension/tool you install. Most are closed source and cannot be fully audited; this one can.
 
 ## Current status
 
